@@ -1,5 +1,5 @@
-# Contributing to Leantime
-We love your input! We want to make contributing to Leantime as easy and transparent as possible. There are many ways to contribute:
+# Contributing to Safe4Work
+We love your input! We want to make contributing to Safe4Work as easy and transparent as possible. There are many ways to contribute:
 
 
 ## Development Process
@@ -34,14 +34,14 @@ We use GitHub to host code, track issues and feature requests, and accept pull r
 
 
 ## Contributor License Agreements
-Developers who wish to contribute code to be considered for inclusion in Leantime must first complete a Contributor License Agreement (CLA).
+Developers who wish to contribute code to be considered for inclusion in Safe4Work must first complete a Contributor License Agreement (CLA).
 We use CLA assistant to manage signatures. You will be asked to sign the CLA with your first pull request. Subsequent pull requests will not require additional signatures. Please keep in mind that:
 
-## Report bugs using GitHub's [issues](https://github.com/Leantime/leantime/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/Leantime/leantime/issues); it's that easy!
+## Report bugs using GitHub's [issues](https://github.com/Safe4Work/safe4work/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/Safe4Work/safe4work/issues); it's that easy!
 
 ## Translations
-We use Crowdin to manage our translations. Please update translations in [this project](https://crowdin.com/project/leantime)
+We use Crowdin to manage our translations. Please update translations in [this project](https://crowdin.com/project/safe4work)
 At this point we will stop accepting pull requests into the language files directly as this is causing issues with the Crowdin sync process. 
 
 ## Write bug reports with detail, background, and sample code
