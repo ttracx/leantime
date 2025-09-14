@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe4Work - Comprehensive Project Management Platform</title>
-    <meta name="description" content="Safe4Work is a comprehensive project management and collaboration platform built with Laravel, designed to provide powerful project management capabilities with an intuitive interface.">
-    <meta name="keywords" content="project management, Laravel, PHP, collaboration, Safe4Work, open source">
+    <title>Safe4Work - AI-Powered Project Management for Neurodiverse Teams</title>
+    <meta name="description" content="Empowering Through AI Innovation. Safe4Work is a comprehensive project management platform designed with neurodiversity in mind, featuring accessible interfaces, AI-powered assistance, and inclusive collaboration tools.">
+    <meta name="keywords" content="project management, neurodiversity, accessibility, AI-powered, Laravel, PHP, collaboration, Safe4Work, open source, inclusive design">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://safe4work.github.io/safe4work/">
-    <meta property="og:title" content="Safe4Work - Comprehensive Project Management Platform">
-    <meta property="og:description" content="A comprehensive project management and collaboration platform built with Laravel, designed to provide powerful project management capabilities with an intuitive interface.">
+    <meta property="og:title" content="Safe4Work - AI-Powered Project Management for Neurodiverse Teams">
+    <meta property="og:description" content="Empowering Through AI Innovation. Safe4Work is a comprehensive project management platform designed with neurodiversity in mind, featuring accessible interfaces, AI-powered assistance, and inclusive collaboration tools.">
     <meta property="og:image" content="https://safe4work.github.io/safe4work/assets/neuroequality-logo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://safe4work.github.io/safe4work/">
-    <meta property="twitter:title" content="Safe4Work - Comprehensive Project Management Platform">
-    <meta property="twitter:description" content="A comprehensive project management and collaboration platform built with Laravel, designed to provide powerful project management capabilities with an intuitive interface.">
+    <meta property="twitter:title" content="Safe4Work - AI-Powered Project Management for Neurodiverse Teams">
+    <meta property="twitter:description" content="Empowering Through AI Innovation. Safe4Work is a comprehensive project management platform designed with neurodiversity in mind, featuring accessible interfaces, AI-powered assistance, and inclusive collaboration tools.">
     <meta property="twitter:image" content="https://safe4work.github.io/safe4work/assets/neuroequality-logo.png">
 
     <link rel="icon" type="image/png" href="assets/neuroequality-logo.png">
@@ -112,8 +112,17 @@
 
         .hero .subtitle {
             font-size: 1.3rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             opacity: 0.9;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .cta-buttons {
@@ -297,6 +306,84 @@
             font-size: 0.9rem;
         }
 
+        /* Demo Section */
+        .demo {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        .demo-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-top: 3rem;
+        }
+
+        .demo-text h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .demo-text p {
+            font-size: 1.1rem;
+            color: #6c757d;
+            margin-bottom: 2rem;
+        }
+
+        .demo-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .demo-features li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .demo-features i {
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+
+        .demo-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .demo-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .demo-placeholder {
+            background: white;
+            border: 2px dashed #667eea;
+            border-radius: 15px;
+            padding: 3rem;
+            text-align: center;
+            color: #6c757d;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .demo-placeholder i {
+            font-size: 4rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .demo-placeholder p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
         /* Partners Section */
         .partners {
             padding: 80px 0;
@@ -358,6 +445,30 @@
             color: #667eea;
         }
 
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #34495e;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: #667eea;
+            transform: translateY(-2px);
+        }
+
         .footer-bottom {
             border-top: 1px solid #34495e;
             padding-top: 1rem;
@@ -365,33 +476,258 @@
             color: #bdc3c7;
         }
 
+        /* Mobile Navigation */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: #2c3e50;
+            cursor: pointer;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+        }
+
+        .mobile-nav.active {
+            display: block;
+        }
+
+        .mobile-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobile-nav li {
+            margin: 0;
+        }
+
+        .mobile-nav a {
+            display: block;
+            padding: 1rem 2rem;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .mobile-nav a:hover {
+            background-color: #f8f9fa;
+            color: #667eea;
+        }
+
         /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+
+            .team-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+        }
+
         @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: block;
+            }
+
             .nav-links {
                 display: none;
             }
 
+            .hero {
+                padding: 100px 0 60px;
+            }
+
             .hero h1 {
                 font-size: 2.5rem;
+                line-height: 1.2;
             }
 
             .hero .subtitle {
                 font-size: 1.1rem;
             }
 
+            .hero-description {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
             .cta-buttons {
                 flex-direction: column;
                 align-items: center;
+                gap: 1rem;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+
+            .section-title {
+                font-size: 2rem;
             }
 
             .about-content {
                 grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .values {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 1rem;
+            }
+
+            .demo-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .demo-buttons {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .demo-buttons .btn {
+                width: 100%;
+                max-width: 250px;
             }
 
             .partner-logos {
                 flex-direction: column;
                 gap: 1.5rem;
             }
+
+            .footer-content {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 2rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .hero-description {
+                font-size: 0.9rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .feature-card {
+                padding: 1.5rem;
+            }
+
+            .feature-icon {
+                font-size: 2.5rem;
+            }
+
+            .feature-card h3 {
+                font-size: 1.3rem;
+            }
+
+            .team-member {
+                padding: 1.5rem;
+            }
+
+            .value-item {
+                padding: 1rem;
+            }
+
+            .demo-placeholder {
+                padding: 2rem;
+            }
+
+            .demo-placeholder i {
+                font-size: 3rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        /* Accessibility Improvements */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        @media (prefers-contrast: high) {
+            .btn-primary {
+                background: #000;
+                color: #fff;
+                border: 2px solid #000;
+            }
+
+            .btn-secondary {
+                background: #fff;
+                color: #000;
+                border: 2px solid #000;
+            }
+
+            .feature-card {
+                border: 2px solid #000;
+            }
+        }
+
+        /* Focus indicators for keyboard navigation */
+        .btn:focus,
+        .nav-links a:focus,
+        .mobile-nav a:focus,
+        .social-link:focus {
+            outline: 3px solid #667eea;
+            outline-offset: 2px;
+        }
+
+        /* Skip to content link for screen readers */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 1000;
+        }
+
+        .skip-link:focus {
+            top: 6px;
         }
 
         /* Animations */
@@ -442,6 +778,9 @@
     </style>
 </head>
 <body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
     <!-- Header -->
     <header>
         <nav class="container">
@@ -452,17 +791,32 @@
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#demo">Demo</a></li>
                 <li><a href="#technology">Technology</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- Hero Section -->
+    <main id="main-content">
     <section class="hero">
         <div class="container">
             <h1 class="fade-in-up">Safe4Work</h1>
-            <p class="subtitle fade-in-up">Comprehensive Project Management and Collaboration Platform</p>
+            <p class="subtitle fade-in-up">AI-Powered Project Management for Neurodiverse Teams</p>
+            <p class="hero-description fade-in-up">Empowering Through AI Innovation. Built with accessibility, inclusivity, and neurodiversity at its core.</p>
             <div class="cta-buttons fade-in-up">
                 <a href="https://github.com/safe4work/safe4work" class="btn btn-primary">
                     <i class="fab fa-github"></i>
@@ -472,6 +826,10 @@
                     <i class="fas fa-external-link-alt"></i>
                     Visit Website
                 </a>
+                <a href="#demo" class="btn btn-secondary">
+                    <i class="fas fa-play"></i>
+                    See Demo
+                </a>
             </div>
         </div>
     </section>
@@ -479,49 +837,49 @@
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
-            <h2 class="section-title">Powerful Project Management Features</h2>
+            <h2 class="section-title">Designed for Neurodiverse Teams</h2>
             <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Assistance</h3>
+                    <p>Intelligent task suggestions, automated workflows, and AI-driven insights tailored for neurodiverse thinking patterns and work styles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-universal-access"></i>
+                    </div>
+                    <h3>Accessibility First</h3>
+                    <p>Built with WCAG guidelines, customizable interfaces, screen reader support, and neurodiversity-friendly design patterns.</p>
+                </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-tasks"></i>
                     </div>
-                    <h3>Task Management</h3>
-                    <p>Kanban boards, Gantt charts, table, list and calendar views for comprehensive task organization and tracking.</p>
+                    <h3>Flexible Task Management</h3>
+                    <p>Kanban boards, Gantt charts, table, list and calendar views with customizable workflows that adapt to individual needs.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-project-diagram"></i>
+                        <i class="fas fa-users"></i>
                     </div>
-                    <h3>Project Planning</h3>
-                    <p>Project dashboards, reports, status updates, goal tracking, and milestone management for complete project oversight.</p>
+                    <h3>Inclusive Collaboration</h3>
+                    <p>Communication tools designed for different communication styles, with support for asynchronous and synchronous collaboration.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-book"></i>
+                        <i class="fas fa-cog"></i>
                     </div>
-                    <h3>Knowledge Management</h3>
-                    <p>Wikis, documentation, idea boards, file storage, and collaborative discussions to keep your team informed.</p>
+                    <h3>Customizable Experience</h3>
+                    <p>Highly customizable interfaces, themes, and workflows that can be tailored to individual sensory and cognitive preferences.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Administration</h3>
-                    <p>Easy installation, user roles, permissions, two-factor authentication, and extensive integration options.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Reporting & Analytics</h3>
-                    <p>Comprehensive reporting tools, visual dashboards, and analytics to track progress and measure success.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-plug"></i>
-                    </div>
-                    <h3>Integrations</h3>
-                    <p>Extensive third-party integrations, API support, and extensible plugin architecture for customization.</p>
+                    <h3>Safe & Secure</h3>
+                    <p>Enterprise-grade security with privacy controls, data protection, and safe spaces for sensitive project discussions.</p>
                 </div>
             </div>
         </div>
@@ -532,30 +890,65 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>About Safe4Work</h2>
-                    <p>Safe4Work is a comprehensive project management and collaboration platform built with Laravel, designed to provide powerful project management capabilities with an intuitive interface.</p>
-                    <p>Whether you're managing a small team or a large enterprise, Safe4Work offers the tools and flexibility you need to organize, track, and complete your projects successfully.</p>
+                    <h2>Empowering Neurodiverse Teams</h2>
+                    <p>Safe4Work represents the culmination of decades of experience in technology leadership, product development, and AI innovation, united by a shared vision to transform care management for neurodiverse individuals.</p>
+                    <p>Every feature is designed with empathy, accessibility, and the unique needs of neurodiverse individuals at the forefront. We believe that technology should adapt to people, not the other way around.</p>
                     
                     <div class="values">
                         <div class="value-item">
+                            <h4>Neurodiversity-First</h4>
+                            <p>Built from the ground up with neurodiverse individuals in mind, ensuring inclusive and accessible experiences for all.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>AI-Powered</h4>
+                            <p>Leveraging cutting-edge AI to provide intelligent assistance and personalized workflows that adapt to individual needs.</p>
+                        </div>
+                        <div class="value-item">
                             <h4>Open Source</h4>
-                            <p>Built with transparency and community collaboration in mind, with full source code available on GitHub.</p>
+                            <p>Transparent, community-driven development with full source code available for customization and contribution.</p>
                         </div>
                         <div class="value-item">
-                            <h4>Flexible</h4>
-                            <p>Adaptable to various project management methodologies and team workflows.</p>
-                        </div>
-                        <div class="value-item">
-                            <h4>Extensible</h4>
-                            <p>Plugin architecture and API support for customization and integration with your existing tools.</p>
-                        </div>
-                        <div class="value-item">
-                            <h4>Reliable</h4>
-                            <p>Built on proven Laravel framework with comprehensive testing and security features.</p>
+                            <h4>Accessible</h4>
+                            <p>WCAG compliant with customizable interfaces, screen reader support, and inclusive design patterns.</p>
                         </div>
                     </div>
                 </div>
                 <div class="neuroequality-logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2 class="section-title">See Safe4Work in Action</h2>
+            <div class="demo-content">
+                <div class="demo-text">
+                    <h3>Experience the Difference</h3>
+                    <p>See how Safe4Work's AI-powered features and neurodiversity-friendly design create a more inclusive and productive project management experience.</p>
+                    <ul class="demo-features">
+                        <li><i class="fas fa-check"></i> AI-powered task suggestions and workflow automation</li>
+                        <li><i class="fas fa-check"></i> Customizable interfaces for different sensory needs</li>
+                        <li><i class="fas fa-check"></i> Accessible collaboration tools and communication features</li>
+                        <li><i class="fas fa-check"></i> Real-time project insights and progress tracking</li>
+                    </ul>
+                    <div class="demo-buttons">
+                        <a href="https://safe4work.com/demo" class="btn btn-primary">
+                            <i class="fas fa-play"></i>
+                            Try Live Demo
+                        </a>
+                        <a href="https://github.com/Safe4Work/safe4work" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            View Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="demo-visual">
+                    <div class="demo-placeholder">
+                        <i class="fas fa-desktop"></i>
+                        <p>Interactive Demo Coming Soon</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -571,14 +964,14 @@
                     <p>Built on the robust Laravel PHP framework, providing security, scalability, and maintainability for enterprise applications.</p>
                 </div>
                 <div class="team-member">
-                    <h4>Modern Frontend</h4>
-                    <div class="role">User Interface</div>
-                    <p>Responsive design with modern JavaScript frameworks and CSS, ensuring a smooth user experience across all devices.</p>
+                    <h4>AI & Machine Learning</h4>
+                    <div class="role">Intelligent Features</div>
+                    <p>Advanced AI capabilities powered by modern machine learning models for personalized assistance and workflow optimization.</p>
                 </div>
                 <div class="team-member">
-                    <h4>Database Agnostic</h4>
-                    <div class="role">Data Storage</div>
-                    <p>Supports MySQL and MariaDB with flexible data models that adapt to your project management needs.</p>
+                    <h4>Accessibility Standards</h4>
+                    <div class="role">Inclusive Design</div>
+                    <p>WCAG 2.1 AA compliant with neurodiversity-friendly design patterns and customizable user experiences.</p>
                 </div>
                 <div class="team-member">
                     <h4>API First</h4>
@@ -595,20 +988,34 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Safe4Work</h3>
-                    <p>Comprehensive project management and collaboration platform built with Laravel.</p>
+                    <p>AI-powered project management platform designed for neurodiverse teams. Empowering through innovation and inclusive design.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Safe4Work" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://discord.com/invite/safe4work" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="https://twitter.com/safe4work" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <p><a href="https://github.com/Safe4Work/safe4work">GitHub Repository</a></p>
+                    <p><a href="https://safe4work.com">Official Website</a></p>
                     <p><a href="https://github.com/Safe4Work/safe4work/issues">Report Issues</a></p>
-                    <p><a href="https://github.com/Safe4Work/safe4work/discussions">Discussions</a></p>
-                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/README.md">Documentation</a></p>
+                    <p><a href="https://github.com/Safe4Work/safe4work/discussions">Community Discussions</a></p>
+                    <p><a href="https://docs.safe4work.com">Documentation</a></p>
                 </div>
                 <div class="footer-section">
-                    <h3>Support</h3>
-                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/CONTRIBUTING.md">Contributing</a></p>
-                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/SECURITY.md">Security</a></p>
-                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/LICENSE">License</a></p>
+                    <h3>Resources</h3>
+                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/CONTRIBUTING.md">Contributing Guide</a></p>
+                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/SECURITY.md">Security Policy</a></p>
+                    <p><a href="https://github.com/Safe4Work/safe4work/blob/master/LICENSE">AGPL-3.0 License</a></p>
+                    <p><a href="https://safe4work.com/support">Support & Sponsorship</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Neurodiversity</h3>
+                    <p><a href="https://safe4work.com/neurodiversity">Our Mission</a></p>
+                    <p><a href="https://safe4work.com/accessibility">Accessibility Features</a></p>
+                    <p><a href="https://safe4work.com/community">Community Guidelines</a></p>
+                    <p><a href="https://safe4work.com/responsible-disclosure-policy/">Responsible Disclosure</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -616,8 +1023,40 @@
             </div>
         </div>
     </footer>
+    </main>
 
     <script>
+        // Mobile navigation toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        
+        mobileMenuToggle.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+            const icon = this.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                mobileNav.classList.remove('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileMenuToggle.contains(e.target) && !mobileNav.contains(e.target)) {
+                mobileNav.classList.remove('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            }
+        });
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -649,6 +1088,23 @@
         // Observe all feature cards and team members
         document.querySelectorAll('.feature-card, .team-member, .value-item').forEach(el => {
             observer.observe(el);
+        });
+
+        // Keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && mobileNav.classList.contains('active')) {
+                mobileNav.classList.remove('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            }
+        });
+
+        // Focus management for mobile menu
+        mobileMenuToggle.addEventListener('click', function() {
+            if (mobileNav.classList.contains('active')) {
+                mobileNav.querySelector('a').focus();
+            }
         });
     </script>
 </body>
