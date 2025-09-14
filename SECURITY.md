@@ -11,14 +11,14 @@ We currently support the following versions with security updates:
 
 ## Reporting a Vulnerability
 
-Leantime takes security seriously. If you discover a security vulnerability, please follow these steps:
+Safe4Work takes security seriously. If you discover a security vulnerability, please follow these steps:
 
 1. **Do NOT disclose the vulnerability publicly**
-2. Email security@leantime.io with details about the vulnerability
+2. Email security@safe4work.com with details about the vulnerability
 3. Allow up to 48 hours for an initial response
 4. Work with us to resolve the issue before any public disclosure
 
-For more information, visit our [Responsible Disclosure Policy](https://leantime.io/responsible-disclosure-policy/)
+For more information, visit our [Security Policy](https://github.com/Safe4Work/safe4work/security/policy)
 
 ## Disclosure Timeframe
 
@@ -27,7 +27,7 @@ That means if a vulnerability was discovered in 2.4.1 and then fixed in 2.4.2 it
 
 ## Security Best Practices
 
-When deploying Leantime:
+When deploying Safe4Work:
 1. Always use Hypertext Transfer Protocol Secure
 2. Keep PHP and all dependencies up to date
 3. Enable two-factor authentication
