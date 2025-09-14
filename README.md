@@ -1,6 +1,4 @@
 <div align="center">
-<a href="https://safe4work.com"><img src="https://safe4work.com/wp-content/uploads/2023/03/safe4work_logo.png" alt="Safe4Work Logo" width="300"/></a>
-
 # Safe4Work&reg; 
 
 ⭐ If you find Safe4Work useful, please star us on GitHub! ⭐
@@ -33,8 +31,6 @@ Building secure, HIPAA-compliant solutions that protect privacy while enabling m
 [![Discord Badge](https://img.shields.io/discord/990001288026677318?label=Discord&style=flat-square)](https://discord.gg/safe4work)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/safe4work)
 <br />
-
-  ![alt text](public/assets/images/Screenshots/mywork-v3.5.png "Home Screen")
 
 </div>
 <br /><br />
@@ -104,28 +100,6 @@ Continuously pushing the boundaries of what's possible with AI and quantum compu
 
 **Empathy**  
 Understanding and responding to the real challenges faced by our users and their families.
-
-<br /><br />
-
-### 📸 Screenshots ###
-
-<table width="100%">
-    <tr>
-        <td width="33%"><img alt="Screenshot of Safe4Work's my work dashboard but with a dark color scheme. All colors are darkened or reverted" src="public/assets/images/Screenshots/dark.png" title="My Work" /></td>
-        <td width="33%"><img alt="Screenshot of Safe4Work's project dashboard showing a project checklist that has the first box checked, the latest tasks (1 right now), a progress donut chart at 0%" src="public/assets/images/Screenshots/projectDashboard.png" title="Project Dashboard" /></td>
-        <td width="33%"><img alt="Screenshot of Safe4Work's todo screen in table format. Tasks are grouped by status where each Status has a different color" src="public/assets/images/Screenshots/table.png" title="Grouped To-Dos" /></td>
-    </tr>
-    <tr>
-        <td><img alt="alt text" src="public/assets/images/Screenshots/kanban.png" title="Kanban Board"/></td>
-        <td><img alt="Screenshot of Safe4Work's timeline or gantt feature showing a timeline with various milestone boxes different in length representing how long these take. Each milestone has a different color and they are connected with an arrow" src="public/assets/images/Screenshots/timeline.png" title="Tasks on timeline" /></td>
-        <td><img alt="Screenshot of Safe4Work's personal calendar screen showing a month overview with a few tasks" src="public/assets/images/Screenshots/calendar.png" title="Project Calendar" /></td>
-    </tr>
-    <tr>
-        <td><img alt="alt text" src="public/assets/images/Screenshots/goals.png" title="Goals" /></td>
-        <td><img alt="Screenshot of Safe4Work's wiki page showing one template article of a product requirements document formatted with lists and tables" src="public/assets/images/Screenshots/docs.png" title="Documents &amp; Wikis" /></td>
-        <td><img alt="Screenshot of Safe4Work's timesheet feature with a table a one week overview and input boxes for each day. Tasks are organized in rows" src="public/assets/images/Screenshots/timesheet.png" title="Timesheets" /></td>
-    </tr>
-</table>
 
 <br /><br />
 ### ❗System Requirements ###
