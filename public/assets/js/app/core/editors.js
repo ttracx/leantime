@@ -1,4 +1,4 @@
-leantime.editorController = (function () {
+safe4work.editorController = (function () {
 
     var markDownTextPatterns = [
         {start: '*', end: '*', format: 'italic'},
@@ -49,7 +49,7 @@ leantime.editorController = (function () {
             // Do your ajax call
             // When using multiple delimiters you can alter the query depending on the delimiter used
             if (delimiter === '@') {
-                jQuery.getJSON(leantime.appUrl + '/api/users', {
+                jQuery.getJSON(safe4work.appUrl + '/api/users', {
                     projectUsersAccess: 'current',
                     query: query
                 }, function (data) {
@@ -74,7 +74,7 @@ leantime.editorController = (function () {
             });
         },
         insert: function (item) {
-            return '<a class="userMention" data-tagged-user-id="' + item.id + '" href="javascript:void(0)"><img src="' + leantime.appUrl + '/api/users?profileImage=' + item.id + '" alt="' + item.name + ' Image"/>' + item.name.trim() + '</a>&nbsp;';
+            return '<a class="userMention" data-tagged-user-id="' + item.id + '" href="javascript:void(0)"><img src="' + safe4work.appUrl + '/api/users?profileImage=' + item.id + '" alt="' + item.name + ' Image"/>' + item.name.trim() + '</a>&nbsp;';
         },
         // The default value is 10 (cf. https://github.com/StevenDevooght/tinyMCE-mention?tab=readme-ov-file#items)
         items: 10
@@ -85,7 +85,7 @@ leantime.editorController = (function () {
 
         xhr = new XMLHttpRequest();
         xhr.withCredentials = false;
-        xhr.open('POST', leantime.appUrl + '/api/files');
+        xhr.open('POST', safe4work.appUrl + '/api/files');
 
         xhr.onload = function () {
             var json;
@@ -115,7 +115,7 @@ leantime.editorController = (function () {
         };
 
         jQuery.nmManual(
-            leantime.appUrl + '/files/showAll?modalPopUp=true',
+            safe4work.appUrl + '/files/showAll?modalPopUp=true',
             {
                 stack: true,
                 callbacks: shortOptions,
@@ -175,9 +175,9 @@ leantime.editorController = (function () {
         });
     }
 
-    var skin_url = leantime.appUrl + '/dist/css/libs/tinymceSkin/oxide';
-    var content_css = leantime.appUrl + '/theme/' + leantime.theme + '/css/'+ leantime.colorScheme +'.css,'
-        + leantime.appUrl + '/dist/css/editor.' + leantime.version + '.min.css'
+    var skin_url = safe4work.appUrl + '/dist/css/libs/tinymceSkin/oxide';
+    var content_css = safe4work.appUrl + '/theme/' + safe4work.theme + '/css/'+ safe4work.colorScheme +'.css,'
+        + safe4work.appUrl + '/dist/css/editor.' + safe4work.version + '.min.css'
 
     var initSimpleEditor = function (callback) {
 
@@ -198,7 +198,7 @@ leantime.editorController = (function () {
                 paste_data_images: true,
                 menubar:false,
                 relative_urls : true,
-                document_base_url : leantime.appUrl + "/",
+                document_base_url : safe4work.appUrl + "/",
                 default_link_target: '_blank',
                 table_appearance_options: false,
                 mentions: mentionsConfig,
@@ -219,8 +219,8 @@ leantime.editorController = (function () {
         }
 
         let projectId = 'none';
-        if(window.leantime.currentProject){
-            projectId = window.leantime.currentProject;
+        if(window.safe4work.currentProject){
+            projectId = window.safe4work.currentProject;
         }
 
         //modal is 50px from top. Always
@@ -232,13 +232,13 @@ leantime.editorController = (function () {
             {
                 // General options
                 width: "100%",
-                skin_url: leantime.appUrl + '/dist/css/libs/tinymceSkin/oxide',
-                content_css: leantime.appUrl + '/theme/' + leantime.theme + '/css/'+ leantime.colorScheme +'.css,'
-                    + leantime.appUrl + '/dist/css/editor.' + leantime.version + '.min.css',
+                skin_url: safe4work.appUrl + '/dist/css/libs/tinymceSkin/oxide',
+                content_css: safe4work.appUrl + '/theme/' + safe4work.theme + '/css/'+ safe4work.colorScheme +'.css,'
+                    + safe4work.appUrl + '/dist/css/editor.' + safe4work.version + '.min.css',
                 content_style: "html {text-align:center;} body.mce-content-body{ font-size:14px; } img { max-width: 100%; max-height: fit-content; }",
                 plugins : "autosave,imagetools,embed,autoresize,shortlink,checklist,bettertable,table,emoticons,autolink,image,lists,save,media,searchreplace,paste,directionality,fullscreen,noneditable,visualchars,advancedTemplate,advlist,codesample,mention,slashcommands,textpattern",
                 toolbar : "bold italic strikethrough | formatselect forecolor | alignleft aligncenter alignright | link unlink image media embed emoticons | checklist bullist numlist | table  | codesample | advancedTemplate | restoredraft",
-                autosave_prefix: 'leantime-complexEditor-autosave-{path}{query}-{id}-'+projectId+'-'+entityId+'-',
+                autosave_prefix: 'safe4work-complexEditor-autosave-{path}{query}-{id}-'+projectId+'-'+entityId+'-',
                 autosave_restore_when_empty: true,
                 autosave_retention: '10m',
                 browser_spellcheck: true,
@@ -251,11 +251,11 @@ leantime.editorController = (function () {
                 convert_urls: true,
                 menubar:false,
                 resizable: true,
-                templates : leantime.appUrl + "/wiki/templates",
+                templates : safe4work.appUrl + "/wiki/templates",
                 body_class: 'mce-content-body',
                 paste_data_images: true,
                 relative_urls : true,
-                document_base_url: leantime.appUrl + "/",
+                document_base_url: safe4work.appUrl + "/",
                 table_appearance_options: false,
                 min_height: 400,
                 max_height: height,
@@ -298,8 +298,8 @@ leantime.editorController = (function () {
         }
 
         let projectId = 'none';
-        if(window.leantime.currentProject){
-            projectId = window.leantime.currentProject;
+        if(window.safe4work.currentProject){
+            projectId = window.safe4work.currentProject;
         }
 
         //modal is 50px from top. Always
@@ -310,16 +310,16 @@ leantime.editorController = (function () {
             {
                 // General options
                 width: "100%",
-                skin_url: leantime.appUrl + '/dist/css/libs/tinymceSkin/oxide',
-                content_css: leantime.appUrl + '/theme/' + leantime.theme + '/css/'+ leantime.colorScheme +'.css,'
-                    + leantime.appUrl + '/dist/css/editor.' + leantime.version + '.min.css',
+                skin_url: safe4work.appUrl + '/dist/css/libs/tinymceSkin/oxide',
+                content_css: safe4work.appUrl + '/theme/' + safe4work.theme + '/css/'+ safe4work.colorScheme +'.css,'
+                    + safe4work.appUrl + '/dist/css/editor.' + safe4work.version + '.min.css',
                 content_style: "html {text-align:center;} body.mce-content-body{ font-size:14px; color:var(--secondary-font-color); max-width:none;} img { max-width: 100%; max-height: fit-content; }",
                 plugins : "autosave,imagetools,embed,autoresize,shortlink,checklist,bettertable,table,emoticons,autolink,image,lists,save,media,searchreplace,paste,directionality,fullscreen,noneditable,visualchars,advancedTemplate,advlist,codesample,mention,slashcommands,textpattern",
                 toolbar : "bold italic strikethrough | formatselect forecolor | alignleft aligncenter alignright | link image table emoticons | checklist bullist | advancedTemplate | restoredraft",
                 toolbar_location: 'bottom',
                 browser_spellcheck: true,
                 contextmenu: false,
-                autosave_prefix: 'leantime-complexEditor-autosave-{path}{query}-{id}-'+projectId+'-'+entityId+'-',
+                autosave_prefix: 'safe4work-complexEditor-autosave-{path}{query}-{id}-'+projectId+'-'+entityId+'-',
                 autosave_restore_when_empty: true,
                 autosave_retention: '120m',
                 autosave_interval: '10s',
@@ -329,11 +329,11 @@ leantime.editorController = (function () {
                 convert_urls: true,
                 menubar:false,
                 resizable: true,
-                templates : leantime.appUrl + "/wiki/templates",
+                templates : safe4work.appUrl + "/wiki/templates",
                 body_class: 'mce-content-body',
                 paste_data_images: true,
                 relative_urls : true,
-                document_base_url: leantime.appUrl + "/",
+                document_base_url: safe4work.appUrl + "/",
                 table_appearance_options: false,
                 min_height: 400,
                 default_link_target: '_blank',
@@ -394,7 +394,7 @@ leantime.editorController = (function () {
                 paste_data_images: true,
                 menubar:false,
                 relative_urls : true,
-                document_base_url : leantime.appUrl + "/",
+                document_base_url : safe4work.appUrl + "/",
                 default_link_target: '_blank',
                 table_appearance_options: false,
                 mentions: mentionsConfig,

@@ -1,8 +1,8 @@
 /*
- * Leantime Modals
+ * Safe4Work Modals
  *
  * This is a heavily modified fork of nyroModal v2.0.0
- * Including a variety of filters needed for Leantime specific use cases
+ * Including a variety of filters needed for Safe4Work specific use cases
  *
  *
  * Included parts:

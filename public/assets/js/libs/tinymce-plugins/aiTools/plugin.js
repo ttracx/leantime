@@ -96,7 +96,7 @@ tinymce.PluginManager.add('aiTools', function (editor) {
      * @returns {Promise<void>}
      */
     async function streamResponseToEditor(prompt) {
-        const copilotEndpoint = leantime.appUrl + '/copilot/action/editorTools';
+        const copilotEndpoint = safe4work.appUrl + '/copilot/action/editorTools';
 
         const response = await fetch(copilotEndpoint, {
             method: 'POST',
@@ -174,7 +174,7 @@ tinymce.PluginManager.add('aiTools', function (editor) {
      * @returns {Promise<string>}
      */
     async function getResponseFromLeo(prompt) {
-        const copilotEndpoint = leantime.appUrl + '/copilot/action/editorTools';
+        const copilotEndpoint = safe4work.appUrl + '/copilot/action/editorTools';
 
         const response = await fetch(copilotEndpoint, {
             method: 'POST',
@@ -260,7 +260,7 @@ tinymce.PluginManager.add('aiTools', function (editor) {
         getMetadata: function () {
             return {
                 name: 'TinyMCE Llamadorian Plugin',
-                url: 'https://marketplace.leantime.io/product/leantime-ai/'
+                url: 'https://marketplace.safe4work.com/product/safe4work-ai/'
             }
         }
     }

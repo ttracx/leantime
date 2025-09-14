@@ -1,4 +1,4 @@
-leantime.modals = (function () {
+safe4work.modals = (function () {
 
     var setCustomModalCallback = function(callback) {
         if(typeof callback === 'function') {
@@ -80,7 +80,7 @@ leantime.modals = (function () {
         }
 
         //Ensure we have no trailing slash at the end.
-        var baseUrl = leantime.appUrl.replace(/\/$/, '');
+        var baseUrl = safe4work.appUrl.replace(/\/$/, '');
 
         var urlParts = url.split("/");
         if(urlParts.length>2 && urlParts[1] !== "tab") {
@@ -104,14 +104,14 @@ leantime.modals = (function () {
 })();
 
 jQuery(document).ready(function() {
-    leantime.modals.openModal();
+    safe4work.modals.openModal();
 });
 
 window.addEventListener("hashchange", function () {
-    leantime.modals.openModal();
+    safe4work.modals.openModal();
 });
 
 window.addEventListener("closeModal", function(evt) {
-    leantime.modals.closeModal();
+    safe4work.modals.closeModal();
 });
 

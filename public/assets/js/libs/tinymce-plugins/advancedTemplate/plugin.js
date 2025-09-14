@@ -1,5 +1,5 @@
 /**
- * Heavily updated copy of template plugin to work with Leantime content
+ * Heavily updated copy of template plugin to work with Safe4Work content
  */
 
 /**
