@@ -1,20 +1,20 @@
 <?php
 
-namespace Leantime\Domain\Users\Services;
+namespace Safe4Work\Domain\Users\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Core\Support\Avatarcreator;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Files\Services\Files;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Core\Support\Avatarcreator;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Files\Services\Files;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use Ramsey\Uuid\Uuid;
 use SVG\SVG;
 use Symfony\Component\HttpFoundation\Response;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Api\Repositories;
+namespace Safe4Work\Domain\Api\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 
 class Api
 {

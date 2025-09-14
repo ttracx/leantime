@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Cron\Services;
+namespace Safe4Work\Domain\Cron\Services;
 
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Audit\Repositories\Audit;
-use Leantime\Domain\Queue\Services\Queue;
-use Leantime\Domain\Reports\Services\Reports;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Audit\Repositories\Audit;
+use Safe4Work\Domain\Queue\Services\Queue;
+use Safe4Work\Domain\Reports\Services\Reports;
 
 /**
  * @api

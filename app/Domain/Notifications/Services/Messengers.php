@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Services;
+namespace Safe4Work\Domain\Notifications\Services;
 
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Services\Tickets;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets;
 
 class Messengers
 {

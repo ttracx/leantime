@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Auth\Services;
+namespace Safe4Work\Domain\Auth\Services;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Container\BindingResolutionException;
@@ -8,18 +8,18 @@ use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Session\SessionManager;
 use Illuminate\Support\Facades\Log;
 use Laravel\Sanctum\HasApiTokens;
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Repositories\AccessTokenRepository;
-use Leantime\Domain\Auth\Repositories\Auth as AuthRepository;
-use Leantime\Domain\Ldap\Services\Ldap;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Repositories\AccessTokenRepository;
+use Safe4Work\Domain\Auth\Repositories\Auth as AuthRepository;
+use Safe4Work\Domain\Ldap\Services\Ldap;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use Ramsey\Uuid\Uuid;
 use RobThree\Auth\TwoFactorAuth;
 

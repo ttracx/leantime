@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Install\Services;
+namespace Safe4Work\Domain\Install\Services;
 
-use Leantime\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\AppSettings;
 
 class Install
 {

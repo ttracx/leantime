@@ -4,15 +4,15 @@
  * showCanvas class - Generic canvas controller
  */
 
-namespace Leantime\Domain\Canvas\Controllers;
+namespace Safe4Work\Domain\Canvas\Controllers;
 
 use Illuminate\Support\Str;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Domain\Canvas\Services\Canvas as CanvaService;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Queue\Repositories\Queue as QueueRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Domain\Canvas\Services\Canvas as CanvaService;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Queue\Repositories\Queue as QueueRepository;
 
 class ShowCanvas extends Controller
 {

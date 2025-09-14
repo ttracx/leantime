@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Queue\Repositories;
+namespace Safe4Work\Domain\Queue\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Queue\Workers\Workers;
-use Leantime\Domain\Users\Repositories\Users as UserRepo;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Queue\Workers\Workers;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepo;
 use PDO;
 
 class Queue

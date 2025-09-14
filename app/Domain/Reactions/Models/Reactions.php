@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Reactions\Models;
+namespace Safe4Work\Domain\Reactions\Models;
 
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 class Reactions
 {

@@ -4,7 +4,7 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Leancanvas\Controllers;
+namespace Safe4Work\Domain\Leancanvas\Controllers;
 
 class DelCanvas extends \Leantime\Domain\Canvas\Controllers\DelCanvas
 {

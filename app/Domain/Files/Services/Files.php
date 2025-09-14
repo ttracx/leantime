@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Domain\Files\Services;
+namespace Safe4Work\Domain\Files\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Files\Exceptions\FileValidationException;
-use Leantime\Core\Files\FileManager;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Files\Repositories\Files as FileRepository;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Files\Exceptions\FileValidationException;
+use Safe4Work\Core\Files\FileManager;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Files\Repositories\Files as FileRepository;
 use Symfony\Component\Filesystem\Exception\FileNotFoundException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Response;

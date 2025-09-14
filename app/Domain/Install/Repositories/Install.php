@@ -1,17 +1,17 @@
 <?php
 
-namespace Leantime\Domain\Install\Repositories;
+namespace Safe4Work\Domain\Install\Repositories;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\AppSettings as AppSettingCore;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Menu\Repositories\Menu as MenuRepository;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Setting\Services\SettingCache;
+use Safe4Work\Core\Configuration\AppSettings as AppSettingCore;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Menu\Repositories\Menu as MenuRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Setting\Services\SettingCache;
 use PDO;
 use PDOException;
 

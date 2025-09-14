@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Services;
+namespace Safe4Work\Domain\Notifications\Services;
 
 use DOMDocument;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Domain\Notifications\Repositories\Notifications as NotificationRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Domain\Notifications\Repositories\Notifications as NotificationRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 /**
  * @api

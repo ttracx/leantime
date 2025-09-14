@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Console;
+namespace Safe4Work\Core\Console;
 
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Console\Command;
@@ -12,9 +12,9 @@ use Illuminate\Foundation\Console\Kernel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Leantime\Core\Console\Application as LeantimeCli;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Console\Application as LeantimeCli;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\EventDispatcher;
 use Symfony\Component\Finder\Finder;
 
 class ConsoleKernel extends Kernel implements ConsoleKernelContract

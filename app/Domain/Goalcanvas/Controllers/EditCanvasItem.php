@@ -4,17 +4,17 @@
  * Controller / Edit Canvas Item
  */
 
-namespace Leantime\Domain\Goalcanvas\Controllers;
+namespace Safe4Work\Domain\Goalcanvas\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Support\FromFormat;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
-use Leantime\Domain\Goalcanvas\Services\Goalcanvas as GoalcanvaService;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Support\FromFormat;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
+use Safe4Work\Domain\Goalcanvas\Services\Goalcanvas as GoalcanvaService;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 use Symfony\Component\HttpFoundation\Response;
 
 class EditCanvasItem extends \Leantime\Domain\Canvas\Controllers\EditCanvasItem

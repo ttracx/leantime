@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Auth\Repositories;
+namespace Safe4Work\Domain\Auth\Repositories;
 
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use PDO;
 
 class Auth

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Help\Contracts;
+namespace Safe4Work\Domain\Help\Contracts;
 
 interface OnboardingSteps
 {

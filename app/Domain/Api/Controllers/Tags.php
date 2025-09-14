@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Tags\Services\Tags as TagService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Tags\Services\Tags as TagService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Tags extends Controller

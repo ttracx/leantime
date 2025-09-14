@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use DigitalJoeCo\Leantime\Documentor\Documentor;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Finder\Finder;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Auth\Controllers;
+namespace Safe4Work\Domain\Auth\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Setting\Services\Setting;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Setting\Services\Setting;
 use Symfony\Component\HttpFoundation\Response;
 
 class Login extends Controller

@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Auth\Controllers;
+namespace Safe4Work\Domain\Auth\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Setting\Services\Setting;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Setting\Services\Setting;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use Symfony\Component\HttpFoundation\Response;
 
 class UserInvite extends Controller

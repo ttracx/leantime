@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Canvas\Services;
+namespace Safe4Work\Domain\Canvas\Services;
 
 use DOMDocument;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Str;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 /**
  * @api

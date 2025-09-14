@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Oidc\Controllers;
+namespace Safe4Work\Domain\Oidc\Controllers;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Oidc\Services\Oidc as OidcService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Oidc\Services\Oidc as OidcService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Login extends Controller

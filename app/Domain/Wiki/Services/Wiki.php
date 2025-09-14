@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Services;
+namespace Safe4Work\Domain\Wiki\Services;
 
-use Leantime\Core\Language;
-use Leantime\Domain\Wiki\Models\Article;
-use Leantime\Domain\Wiki\Repositories\Wiki as WikiRepository;
+use Safe4Work\Core\Language;
+use Safe4Work\Domain\Wiki\Models\Article;
+use Safe4Work\Domain\Wiki\Repositories\Wiki as WikiRepository;
 
 /**
  * @api

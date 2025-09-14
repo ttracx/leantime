@@ -1,9 +1,9 @@
 VERSION := $(shell grep "appVersion" ./app/Core/Configuration/AppSettings.php |awk -F' = ' '{print substr($$2,2,length($$2)-3)}')
-TARGET_DIR:= ./target/leantime
+TARGET_DIR:= ./target/safe4work
 DESC:=$(shell git log -1 --pretty=%B)
 
 DOCS_DIR:= ./builddocs
-DOCS_REPO:= git@github.com:Leantime/docs.git
+DOCS_REPO:= git@github.com:Safe4Work/docs.git
 RUNNING_DOCKER_CONTAINERS:= $(shell docker ps -a -q)
 RUNNING_DOCKER_VOLUMES:= $(shell docker volume ls -q)
 
@@ -43,7 +43,7 @@ package: clean build
 
 	#prepare log file
 	mkdir -p $(TARGET_DIR)/storage/logs
-	touch $(TARGET_DIR)/storage/logs/leantime.log
+	touch $(TARGET_DIR)/storage/logs/safe4work.log
 
 	mkdir -p $(TARGET_DIR)/userfiles
 	touch   $(TARGET_DIR)/userfiles/.gitkeep
@@ -69,8 +69,8 @@ package: clean build
 	find $(TARGET_DIR)/public/dist/js/ -depth -mindepth 1 ! -name "*compiled*" -exec rm -rf {} \;
 
 	#create zip files
-	cd target/leantime && zip -r -X ../"Leantime-v$(VERSION)$$1.zip" .
-	cd target/leantime && tar -zcvf ../"Leantime-v$(VERSION)$$1.tar.gz" .
+	cd target/safe4work && zip -r -X ../"Safe4Work-v$(VERSION)$$1.zip" .
+	cd target/safe4work && tar -zcvf ../"Safe4Work-v$(VERSION)$$1.tar.gz" .
 
 gendocs: # Requires github CLI (brew install gh)
 	# Delete the temporary docs directory if exists
@@ -86,7 +86,7 @@ gendocs: # Requires github CLI (brew install gh)
 	phpDocumentor --config=phpdoc.xml
 	phpDocumentor --config=phpdoc-api.xml
 
-	php vendor/bin/leantime-documentor parse app --format=markdown --template=templates/markdown.php --output=builddocs/technical/hooks.md --memory-limit=-1
+	php vendor/bin/safe4work-documentor parse app --format=markdown --template=templates/markdown.php --output=builddocs/technical/hooks.md --memory-limit=-1
 
 pushdocs:
 	# create pull request
@@ -107,24 +107,24 @@ run-dev: build-dev
 
 acceptance-test: build-dev
 	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml up --detach --build --remove-orphans
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept clean
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept build
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run Acceptance --steps
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept clean
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept build
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept run Acceptance --steps
 
 unit-test: build-dev
 	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml up --detach --build --remove-orphans
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept build
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run Unit --steps
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept build
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept run Unit --steps
 
 api-test: build-dev
 	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml up --detach --build --remove-orphans
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept build
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run Api --steps
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept build
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept run Api --steps
 
 acceptance-test-ci: build-dev
 	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml up --detach --build --remove-orphans
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept build
-	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run Acceptance --steps
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept build
+	docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec safe4work-dev php vendor/bin/codecept run Acceptance --steps
 
 codesniffer:
 	./vendor/squizlabs/php_codesniffer/bin/phpcs app -d memory_limit=1048M
@@ -139,7 +139,7 @@ phpstan:
 	./vendor/bin/phpstan analyse -c .phpstan/phpstan.neon --memory-limit 2G
 
 update-carbon-macros:
-	./vendor/bin/carbon macro Leantime\\Core\\Support\\CarbonMacros app/Core/Support/CarbonMacros.php
+	./vendor/bin/carbon macro Safe4Work\\Core\\Support\\CarbonMacros app/Core/Support/CarbonMacros.php
 
 test-code-style:
 	./vendor/bin/pint --test --config .pint/pint.json

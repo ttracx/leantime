@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Projects\Controllers;
+namespace Safe4Work\Domain\Projects\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Setting\Services\Setting as SettingService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Setting\Services\Setting as SettingService;
 
 class ChangeCurrentProject extends Controller
 {

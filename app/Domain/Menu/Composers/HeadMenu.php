@@ -1,17 +1,17 @@
 <?php
 
-namespace Leantime\Domain\Menu\Composers;
+namespace Safe4Work\Domain\Menu\Composers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Composer;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Help\Services\Helper;
-use Leantime\Domain\Menu\Repositories\Menu as MenuRepo;
-use Leantime\Domain\Notifications\Services\Notifications as NotificationService;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Composer;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Help\Services\Helper;
+use Safe4Work\Domain\Menu\Repositories\Menu as MenuRepo;
+use Safe4Work\Domain\Notifications\Services\Notifications as NotificationService;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 
 class HeadMenu extends Composer
 {

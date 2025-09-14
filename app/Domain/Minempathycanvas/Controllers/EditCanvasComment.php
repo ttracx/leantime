@@ -4,7 +4,7 @@
  * Controller / Edit Comments
  */
 
-namespace Leantime\Domain\Minempathycanvas\Controllers;
+namespace Safe4Work\Domain\Minempathycanvas\Controllers;
 
 class EditCanvasComment extends \Leantime\Domain\Canvas\Controllers\EditCanvasComment
 {

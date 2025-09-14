@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Sprints\Controllers;
+namespace Safe4Work\Domain\Sprints\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Projects\Services\Projects;
-use Leantime\Domain\Sprints\Models\Sprints as SprintModel;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Projects\Services\Projects;
+use Safe4Work\Domain\Sprints\Models\Sprints as SprintModel;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
 
 class EditSprint extends Controller
 {

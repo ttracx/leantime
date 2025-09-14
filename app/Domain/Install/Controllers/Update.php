@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Install\Controllers;
+namespace Safe4Work\Domain\Install\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\AppSettings as AppSettingCore;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Install\Repositories\Install as InstallRepository;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Core\Configuration\AppSettings as AppSettingCore;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Install\Repositories\Install as InstallRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class Update extends Controller

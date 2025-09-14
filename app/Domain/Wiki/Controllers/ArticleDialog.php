@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Controllers;
+namespace Safe4Work\Domain\Wiki\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Wiki\Models\Article;
-use Leantime\Domain\Wiki\Services\Wiki as WikiService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Wiki\Models\Article;
+use Safe4Work\Domain\Wiki\Services\Wiki as WikiService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ArticleDialog extends Controller

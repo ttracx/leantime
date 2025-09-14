@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Core\Routing;
+namespace Safe4Work\Core\Routing;
 
 use Illuminate\Support\Facades\Cache;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\EventDispatcher;
 
 class RouteLoader
 {

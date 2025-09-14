@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Contracts;
+namespace Safe4Work\Domain\Plugins\Contracts;
 
 interface PluginDisplayStrategy
 {

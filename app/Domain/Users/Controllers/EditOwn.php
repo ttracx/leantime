@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Users\Controllers;
+namespace Safe4Work\Domain\Users\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\UI\Theme as ThemeCore;
-use Leantime\Domain\Setting\Services\Setting as SettingService;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\UI\Theme as ThemeCore;
+use Safe4Work\Domain\Setting\Services\Setting as SettingService;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use Symfony\Component\HttpFoundation\Response;
 
 class EditOwn extends Controller

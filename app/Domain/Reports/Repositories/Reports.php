@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Reports\Repositories;
+namespace Safe4Work\Domain\Reports\Repositories;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
 use PDO;
 
 class Reports

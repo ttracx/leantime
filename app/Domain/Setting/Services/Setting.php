@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Setting\Services;
+namespace Safe4Work\Domain\Setting\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Files\Contracts\FileManagerInterface;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Files\Contracts\FileManagerInterface;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
 use Ramsey\Uuid\Uuid;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 

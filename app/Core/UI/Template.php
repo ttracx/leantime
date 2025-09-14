@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\UI;
+namespace Safe4Work\Core\UI;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
@@ -10,15 +10,15 @@ use Illuminate\Support\Str;
 use Illuminate\View\Compilers\Compiler;
 use Illuminate\View\View;
 use Illuminate\View\ViewException;
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Core\Language;
-use Leantime\Core\Support\DateTimeInfoEnum;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\Support\DateTimeInfoEnum;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 

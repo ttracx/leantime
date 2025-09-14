@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Connector\Services;
+namespace Safe4Work\Domain\Connector\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Domain\Connector\Repositories\Integrations as IntegrationsRepo;
+use Safe4Work\Domain\Connector\Repositories\Integrations as IntegrationsRepo;
 
 class Integrations
 {

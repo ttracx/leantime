@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Models;
+namespace Safe4Work\Domain\Widgets\Models;
 
 class Widget
 {

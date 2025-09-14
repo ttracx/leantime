@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Core\Support;
+namespace Safe4Work\Core\Support;
 
 use Carbon\CarbonImmutable;
 use Carbon\CarbonInterface;
-use Leantime\Core\Language;
+use Safe4Work\Core\Language;
 
 /**
  * Class CarbonMacros

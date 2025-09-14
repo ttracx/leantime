@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Core\Controller;
+namespace Safe4Work\Core\Controller;
 
 use http\Exception\BadMethodCallException;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Core\Language;
-use Leantime\Core\UI\Template;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\UI\Template;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

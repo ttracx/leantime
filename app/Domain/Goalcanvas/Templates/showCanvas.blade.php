@@ -195,7 +195,7 @@
                                             ($filterStatus == 'all' || $filterStatus == $row['status']) &&
                                             ($filterRelates == 'all' || $filterRelates == $row['relates']))
                                         @php
-                                            $comments = app()->make(\Leantime\Domain\Comments\Repositories\Comments::class);
+                                            $comments = app()->make(\Safe4Work\Domain\Comments\Repositories\Comments::class);
                                             $nbcomments = $comments->countComments(moduleId: $row['id']);
                                         @endphp
                                         <div class="col-md-4">

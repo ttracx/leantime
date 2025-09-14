@@ -1,7 +1,7 @@
 <?php
 
 defined('RESTRICTED') or exit('Restricted access');
-use Leantime\Core\Support\FromFormat;
+use Safe4Work\Core\Support\FromFormat;
 
 foreach ($__data as $var => $val) {
     $$var = $val; // necessary for blade refactor

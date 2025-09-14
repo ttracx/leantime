@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Help\Controllers;
+namespace Safe4Work\Domain\Help\Controllers;
 
-use Leantime\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Controller;
 
 class Updates extends Controller
 {

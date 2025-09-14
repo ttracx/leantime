@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Core\Configuration;
+namespace Safe4Work\Core\Configuration;
 
-use Leantime\Core\Configuration\Attributes\LaravelConfig;
+use Safe4Work\Core\Configuration\Attributes\LaravelConfig;
 
 /**
  * Default Configuration Class

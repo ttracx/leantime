@@ -3,7 +3,7 @@
 namespace Unit\app\Core\Events;
 
 use Codeception\Test\Unit;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 
 class EventsTest extends Unit
 {

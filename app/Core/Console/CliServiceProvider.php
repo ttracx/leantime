@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Console;
+namespace Safe4Work\Core\Console;
 
 use Illuminate\Auth\Console\ClearResetsCommand;
 use Illuminate\Cache\Console\CacheTableCommand;

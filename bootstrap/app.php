@@ -14,7 +14,7 @@
 |
 */
 
-$app = new \Leantime\Core\Application(APP_ROOT);
+$app = new \Safe4Work\Core\Application(APP_ROOT);
 
 /*
 |--------------------------------------------------------------------------
@@ -29,22 +29,22 @@ $app = new \Leantime\Core\Application(APP_ROOT);
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    \Leantime\Core\Http\HttpKernel::class
+    \Safe4Work\Core\Http\HttpKernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    \Leantime\Core\Console\ConsoleKernel::class
+    \Safe4Work\Core\Console\ConsoleKernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    \Leantime\Core\Exceptions\ExceptionHandler::class,
+    \Safe4Work\Core\Exceptions\ExceptionHandler::class,
 );
 
 $app->singleton(
     Illuminate\Http\Request::class,
-    \Leantime\Core\Http\IncomingRequest::class,
+    \Safe4Work\Core\Http\IncomingRequest::class,
 );
 
 /*

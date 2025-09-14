@@ -4,7 +4,7 @@
  * XML export
  */
 
-namespace Leantime\Domain\Goalcanvas\Controllers;
+namespace Safe4Work\Domain\Goalcanvas\Controllers;
 
 class Export extends \Leantime\Domain\Canvas\Controllers\Export
 {

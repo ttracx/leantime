@@ -1,18 +1,18 @@
 <?php
 
-namespace Leantime\Core\UI;
+namespace Safe4Work\Core\UI;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Core\Files\FileManager;
-use Leantime\Core\Language;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Core\Files\FileManager;
+use Safe4Work\Core\Language;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 use Symfony\Component\HttpFoundation\Cookie;
 use Symfony\Component\HttpFoundation\Response;
 

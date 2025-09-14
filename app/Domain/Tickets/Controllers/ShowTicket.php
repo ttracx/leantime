@@ -1,19 +1,19 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Support\FromFormat;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Files\Services\Files as FileService;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Support\FromFormat;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Files\Services\Files as FileService;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowTicket extends Controller

@@ -2,15 +2,15 @@
 
 /* Not production ready yet. Prepping for future version */
 
-namespace Leantime\Domain\Users\Controllers;
+namespace Safe4Work\Domain\Users\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\UI\Template as TemplateCore;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Ldap\Services\Ldap as LdapService;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\UI\Template as TemplateCore;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Ldap\Services\Ldap as LdapService;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class Import extends Controller

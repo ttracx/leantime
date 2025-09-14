@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Core\Bootstrap;
+namespace Safe4Work\Core\Bootstrap;
 
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Config\Repository as RepositoryContract;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\Bootstrap\LoadConfiguration;
 use Illuminate\Http\Request;
-use Leantime\Core\Configuration\Attributes\LaravelConfig;
-use Leantime\Core\Configuration\DefaultConfig;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Configuration\Attributes\LaravelConfig;
+use Safe4Work\Core\Configuration\DefaultConfig;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Http\IncomingRequest;
 
 class LoadConfig extends LoadConfiguration
 {

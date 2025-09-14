@@ -4,7 +4,7 @@
  * Controller
  */
 
-namespace Leantime\Domain\Insightscanvas\Controllers;
+namespace Safe4Work\Domain\Insightscanvas\Controllers;
 
 class ShowCanvas extends \Leantime\Domain\Canvas\Controllers\ShowCanvas
 {

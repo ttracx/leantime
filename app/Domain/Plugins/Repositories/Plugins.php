@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Repositories;
+namespace Safe4Work\Domain\Plugins\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Plugins\Models\InstalledPlugin;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Plugins\Models\InstalledPlugin;
 use PDO;
 
 class Plugins

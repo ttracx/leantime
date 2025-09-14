@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Files\Controllers;
+namespace Safe4Work\Domain\Files\Controllers;
 
 use Aws\S3\S3Client;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Files\FileManager;
-use Leantime\Domain\Files\Repositories\Files as FileRepository;
-use Leantime\Domain\Files\Services\Files as FileService;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Files\FileManager;
+use Safe4Work\Domain\Files\Repositories\Files as FileRepository;
+use Safe4Work\Domain\Files\Services\Files as FileService;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

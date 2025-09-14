@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Sessions;
+namespace Safe4Work\Core\Sessions;
 
 use Exception;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;

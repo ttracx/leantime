@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Hxcontrollers;
+namespace Safe4Work\Domain\Widgets\Hxcontrollers;
 
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Calendar\Repositories\Calendar as CalendarRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Reports\Services\Reports as ReportService;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Calendar\Repositories\Calendar as CalendarRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Reports\Services\Reports as ReportService;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 
 class Calendar extends HtmxController
 {

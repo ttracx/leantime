@@ -4,9 +4,9 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Notifications\Controllers;
+namespace Safe4Work\Domain\Notifications\Controllers;
 
-use Leantime\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class GetLatestGrowl extends Controller

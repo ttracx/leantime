@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\UI;
+namespace Safe4Work\Core\UI;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Fluent;

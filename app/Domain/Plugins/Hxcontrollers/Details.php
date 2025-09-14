@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Hxcontrollers;
+namespace Safe4Work\Domain\Plugins\Hxcontrollers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\Client\RequestException;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Plugins\Models\MarketplacePlugin;
-use Leantime\Domain\Plugins\Services\Plugins as PluginService;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Plugins\Models\MarketplacePlugin;
+use Safe4Work\Domain\Plugins\Services\Plugins as PluginService;
 
 class Details extends HtmxController
 {

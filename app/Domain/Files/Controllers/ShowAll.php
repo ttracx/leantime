@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Files\Controllers;
+namespace Safe4Work\Domain\Files\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Files\Services\Files as FileService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Files\Services\Files as FileService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowAll extends Controller

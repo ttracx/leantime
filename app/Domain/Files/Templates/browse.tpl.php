@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Controller\Frontcontroller;
 
 foreach ($__data as $var => $val) {
     $$var = $val; // necessary for blade refactor

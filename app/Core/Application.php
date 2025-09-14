@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Core;
+namespace Safe4Work\Core;
 
 use Illuminate\Log\Context\ContextServiceProvider;
 use Illuminate\Log\LogServiceProvider;
 use Illuminate\Routing\RoutingServiceProvider;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Console\ConsoleKernel;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\ApiRequest;
-use Leantime\Core\Http\HttpKernel;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Console\ConsoleKernel;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\ApiRequest;
+use Safe4Work\Core\Http\HttpKernel;
+use Safe4Work\Core\Http\IncomingRequest;
 
 /**
  * Class Application

@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Install\Controllers;
+namespace Safe4Work\Domain\Install\Controllers;
 
 use Illuminate\Http\Exceptions\HttpResponseException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Install\Repositories\Install as InstallRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Install\Repositories\Install as InstallRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class Index extends Controller

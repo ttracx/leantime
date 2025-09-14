@@ -1,7 +1,7 @@
 <?php
 
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Events\EventDispatcher;
 
 EventDispatcher::add_filter_listener('leantime.*.welcomeText', function ($welcomeText) {
 

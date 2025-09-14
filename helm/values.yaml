@@ -1,18 +1,18 @@
-# Default values for leantime.
+# Default values for safe4work.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  # -- OCI image repository of the Leantime application
-  repository: leantime/leantime
-  # -- The pull policy of the Leantime OCI image applied to the deployment
+  # -- OCI image repository of the Safe4Work application
+  repository: safe4work/safe4work
+  # -- The pull policy of the Safe4Work OCI image applied to the deployment
   pullPolicy: IfNotPresent
   # -- Overrides the image tag whose default is the chart appVersion
   tag: "latest"
 
-# -- The pull secrets to be used if you want to use a Leantime application image hosted in a private registry
+# -- The pull secrets to be used if you want to use a Safe4Work application image hosted in a private registry
 imagePullSecrets: []
 # -- Overrides the name of the chart
 nameOverride: ""
@@ -23,9 +23,9 @@ fullnameOverride: ""
 persistence:
   # -- Enables or disables the persistence
   enabled: true
-  # -- Sets the size of the PVs for Leantime's public and private userfiles
+  # -- Sets the size of the PVs for Safe4Work's public and private userfiles
   size: 5Gi
-  # -- Sets the storage class for Leantime's volumes
+  # -- Sets the storage class for Safe4Work's volumes
   # -- empty will use system default
   storageClass: ""
 

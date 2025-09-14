@@ -9,7 +9,7 @@
  * - $filter      Array on which to filter
  */
 
-use Leantime\Domain\Comments\Repositories\Comments;
+use Safe4Work\Domain\Comments\Repositories\Comments;
 
 foreach ($__data as $var => $val) {
     $$var = $val; // necessary for blade refactor

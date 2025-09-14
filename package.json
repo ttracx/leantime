@@ -1,7 +1,7 @@
 {
-  "name": "leantime",
+  "name": "safe4work",
   "version": "3.5.12",
-  "description": "Open source innovation management system",
+  "description": "Empowering Through AI Innovation - Care management for neurodiverse individuals",
   "dependencies": {
     "@assuradeurengilde/fontawesome-iconpicker": "^3.2.3",
     "@fortawesome/fontawesome-free": "^6.5.2",
@@ -69,7 +69,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leantime/leantime"
+    "url": "https://github.com/Safe4Work/safe4work"
   },
   "keywords": [
     "Project",
@@ -78,7 +78,7 @@
     "Sprint",
     "Lean"
   ],
-  "author": "Marcel Folaron",
+  "author": "Safe4Work Team",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/Leantime/leantime/blob/master/README.md"
+  "homepage": "https://github.com/Safe4Work/safe4work/blob/master/README.md"
 }

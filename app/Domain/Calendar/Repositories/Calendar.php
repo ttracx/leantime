@@ -1,17 +1,17 @@
 <?php
 
-namespace Leantime\Domain\Calendar\Repositories;
+namespace Safe4Work\Domain\Calendar\Repositories;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Db\Repository as RepositoryCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Core\Support\DateTimeHelper;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Tickets\Services\Tickets;
-use Leantime\Domain\Users\Repositories\Users;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Repository as RepositoryCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Core\Support\DateTimeHelper;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Tickets\Services\Tickets;
+use Safe4Work\Domain\Users\Repositories\Users;
 use PDO;
 
 class Calendar extends RepositoryCore

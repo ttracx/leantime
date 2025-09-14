@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Tags\Services;
+namespace Safe4Work\Domain\Tags\Services;
 
-use Leantime\Domain\Canvas\Repositories\Canvas as CanvaRepository;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Canvas\Repositories\Canvas as CanvaRepository;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
 
 /**
  * @api

@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Help\Composers;
+namespace Safe4Work\Domain\Help\Composers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Composer;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Help\Services\Helper;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Controller\Composer;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Help\Services\Helper;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class Helpermodal extends Composer
 {

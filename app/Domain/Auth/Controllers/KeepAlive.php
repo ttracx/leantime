@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Auth\Controllers;
+namespace Safe4Work\Domain\Auth\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

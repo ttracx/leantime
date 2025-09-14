@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Setting\Services;
+namespace Safe4Work\Domain\Setting\Services;
 
 use Illuminate\Support\Facades\Cache;
 

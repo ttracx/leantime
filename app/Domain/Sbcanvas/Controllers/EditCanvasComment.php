@@ -4,7 +4,7 @@
  * Strategy Brief - Controller / Edit Comments
  */
 
-namespace Leantime\Domain\Sbcanvas\Controllers;
+namespace Safe4Work\Domain\Sbcanvas\Controllers;
 
 class EditCanvasComment extends \Leantime\Domain\Canvas\Controllers\EditCanvasComment
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Core\Console;
+namespace Safe4Work\Core\Console;
 
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Http\IncomingRequest;
 
 class CliRequest extends IncomingRequest
 {

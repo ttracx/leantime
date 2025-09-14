@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Auth\Models;
+namespace Safe4Work\Domain\Auth\Models;
 
 use Carbon\CarbonImmutable;
 

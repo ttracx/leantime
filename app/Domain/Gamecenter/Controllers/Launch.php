@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Gamecenter\Controllers;
+namespace Safe4Work\Domain\Gamecenter\Controllers;
 
 class Launch extends \Leantime\Core\Controller\Controller
 {

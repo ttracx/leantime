@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Projects\Models;
+namespace Safe4Work\Domain\Projects\Models;
 
 use DateTime;
 

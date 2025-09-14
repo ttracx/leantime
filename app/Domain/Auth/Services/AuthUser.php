@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Auth\Services;
+namespace Safe4Work\Domain\Auth\Services;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 use Laravel\Sanctum\HasApiTokens;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 
 class AuthUser implements UserProvider
 {

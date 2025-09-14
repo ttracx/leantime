@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Auth\Guards;
+namespace Safe4Work\Domain\Auth\Guards;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\UserProvider;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 
 class WebGuard implements Guard
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Setting\Repositories;
+namespace Safe4Work\Domain\Setting\Repositories;
 
 use Exception;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Setting\Services\SettingCache;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Setting\Services\SettingCache;
 use PDO;
 
 class Setting

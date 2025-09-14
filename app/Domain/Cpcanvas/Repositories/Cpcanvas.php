@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Cpcanvas\Repositories;
+namespace Safe4Work\Domain\Cpcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Cpcanvas extends Canvas
 {

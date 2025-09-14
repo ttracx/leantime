@@ -3,8 +3,8 @@
 namespace Tests\Unit\App\Core\Support;
 
 use Carbon\CarbonImmutable;
-use Leantime\Core\Language;
-use Leantime\Core\Support\CarbonMacros;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\Support\CarbonMacros;
 use Unit\TestCase;
 
 class CarbonMacrosTest extends TestCase

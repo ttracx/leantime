@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Connector\Services;
+namespace Safe4Work\Domain\Connector\Services;
 
-use Leantime\Domain\Connector\Models\Entity;
+use Safe4Work\Domain\Connector\Models\Entity;
 
 interface ProviderIntegration
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Goalcanvas\Services;
+namespace Safe4Work\Domain\Goalcanvas\Services;
 
-use Leantime\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
+use Safe4Work\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
 
 /**
  * @api

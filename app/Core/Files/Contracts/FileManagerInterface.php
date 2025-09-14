@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Files\Contracts;
+namespace Safe4Work\Core\Files\Contracts;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Response;

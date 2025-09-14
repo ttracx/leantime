@@ -73,7 +73,7 @@
                             <thead>
                                 <tr>
                                     <th>Plugin Version:</th>
-                                    <th>Compatible With Leantime Versions:</th>
+                                    <th>Compatible With Safe4Work Versions:</th>
                                 </tr>
                             </thead>
                             <tbody>

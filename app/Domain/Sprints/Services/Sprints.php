@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Sprints\Services;
+namespace Safe4Work\Domain\Sprints\Services;
 
 use DateInterval;
 use DatePeriod;
 use DateTime;
-use Leantime\Domain\Reports\Repositories\Reports as ReportRepository;
-use Leantime\Domain\Sprints\Models;
-use Leantime\Domain\Sprints\Repositories\Sprints as SprintRepository;
+use Safe4Work\Domain\Reports\Repositories\Reports as ReportRepository;
+use Safe4Work\Domain\Sprints\Models;
+use Safe4Work\Domain\Sprints\Repositories\Sprints as SprintRepository;
 
 /**
  * @api

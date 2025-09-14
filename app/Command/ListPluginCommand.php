@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Illuminate\Console\Command;
-use Leantime\Domain\Plugins\Models\InstalledPlugin;
+use Safe4Work\Domain\Plugins\Models\InstalledPlugin;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputOption;
 

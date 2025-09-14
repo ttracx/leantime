@@ -4,13 +4,13 @@
  * canvas class - Generic canvas API controller
  */
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 use Closure;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Str;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

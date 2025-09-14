@@ -21,12 +21,12 @@
         <div class="">
             <x-global::selectable selected="{{ $daySchedule['workStart'] == '8' ? 'true' : 'false' }}" :id="'daySchedule-workStart-1'" :name="'daySchedule-workStart-button'" :value="'8'" :label="''" onclick="jQuery('#daySchedule-workStart').val('8').hide(); jQuery('#daySchedule-workStart-3').show();" class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[8]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[8]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[8]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[8]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="{{ $daySchedule['workStart'] == '10' ? 'true' : 'false' }}" :id="'daySchedule-workStart-2'" :name="'daySchedule-workStart-button'" :value="'10'" :label="''" onclick="jQuery('#daySchedule-workStart').val('10').hide(); jQuery('#daySchedule-workStart-3').show(); " class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[10]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[10]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[10]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[10]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="" :id="'daySchedule-workStart-3'" :name="'daySchedule-workStart-button'" :value="''" :label="''" class="compact" onclick="jQuery(this).hide(); jQuery('#daySchedule-workStart').show()">
@@ -37,7 +37,7 @@
             <select name="daySchedule-workStart" id="daySchedule-workStart" style="display:none; vertical-align: top;">
                 @foreach($dayHourOptions as $key => $value)
                     <option value="{{ $key }}">
-                        {{ format($value['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                        {{ format($value['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                     </option>
                 @endforeach
             </select>
@@ -47,12 +47,12 @@
         <div class="">
             <x-global::selectable selected="{{ $daySchedule['lunch'] == '12' ? 'true' : 'false' }}" :id="'daySchedule-lunch-1'" :name="'daySchedule-lunch-button'" :value="'12'" :label="''" onclick="jQuery('#daySchedule-lunch').val('12').hide(); jQuery('#daySchedule-lunch-3').show();" class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[12]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[12]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[12]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[12]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="{{ $daySchedule['lunch'] == '14' ? 'true' : 'false' }}" :id="'daySchedule-lunch-2'" :name="'daySchedule-lunch-button'" :value="'14'" :label="''" onclick="jQuery('#daySchedule-lunch').val('14').hide(); jQuery('#daySchedule-lunch-3').show();" class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[14]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[14]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[14]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[14]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="" :id="'daySchedule-lunch-3'" :name="'daySchedule-lunch-button'" :value="''" :label="''" class="compact" onclick="jQuery(this).hide(); jQuery('#daySchedule-lunch').show()">
@@ -63,7 +63,7 @@
             <select name="daySchedule-lunch" id="daySchedule-lunch" style="display:none; vertical-align: top;">
                 @foreach($dayHourOptions as $key => $value)
                     <option value="{{ $key }}">
-                        {{ format($value['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                        {{ format($value['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                     </option>
                 @endforeach
             </select>
@@ -74,12 +74,12 @@
         <div class="">
             <x-global::selectable selected="{{ $daySchedule['workEnd'] == '16' ? 'true' : 'false' }}" :id="'daySchedule-workEnd-1'" :name="'daySchedule-workEnd-button'" :value="'16'" :label="''" onclick="jQuery('#daySchedule-workEnd').val('16').hide(); jQuery('#daySchedule-workEnd-3').show();" class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[16]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[16]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[16]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[16]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="{{ $daySchedule['workEnd'] == '18' ? 'true' : 'false' }}" :id="'daySchedule-workEnd-2'" :name="'daySchedule-workEnd-button'" :value="'18'" :label="''" onclick="jQuery('#daySchedule-workEnd').val('18').hide(); jQuery('#daySchedule-workEnd-3').show();" class="compact">
                 <label for="" class="">
-                    {{ format($dayHourOptions[18]['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[18]['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                    {{ format($dayHourOptions[18]['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($dayHourOptions[18]['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                 </label>
             </x-global::selectable>
             <x-global::selectable selected="" :id="'daySchedule-workEnd-3'" :name="'daySchedule-workEnd-button'" :value="''" :label="''" class="compact" onclick="jQuery(this).hide(); jQuery('#daySchedule-workEnd').show()">
@@ -90,7 +90,7 @@
             <select name="daySchedule-workEnd" id="daySchedule-workEnd" style="display:none; vertical-align: top;">
                 @foreach($dayHourOptions as $key => $value)
                     <option value="{{ $key }}">
-                        {{ format($value['start'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Leantime\Core\Support\FromFormat::User24hTime)->time()}}
+                        {{ format($value['start'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time() }} - {{  format($value['end'], null, \Safe4Work\Core\Support\FromFormat::User24hTime)->time()}}
                     </option>
                 @endforeach
             </select>

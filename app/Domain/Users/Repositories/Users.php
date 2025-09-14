@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Users\Repositories;
+namespace Safe4Work\Domain\Users\Repositories;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Domain\Files\Repositories\Files;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Domain\Files\Repositories\Files;
 use PDO;
 use SVG\SVG;
 

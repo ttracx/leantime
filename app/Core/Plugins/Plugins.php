@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Plugins;
+namespace Safe4Work\Core\Plugins;
 
-use Leantime\Core\Configuration;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Configuration;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 /**
  * Plugins class

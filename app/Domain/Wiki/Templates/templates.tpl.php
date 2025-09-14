@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Domain\Wiki\Models\Template;
+use Safe4Work\Domain\Wiki\Models\Template;
 
 foreach ($__data as $var => $val) {
     $$var = $val; // necessary for blade refactor

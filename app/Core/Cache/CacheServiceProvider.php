@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Cache;
+namespace Safe4Work\Core\Cache;
 
 use Illuminate\Cache\CacheServiceProvider as LaravelCacheServiceProvider;
 use Illuminate\Cache\MemcachedConnector;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\i18n;
+namespace Safe4Work\Core\i18n;
 
 use Illuminate\Support\ServiceProvider;
 

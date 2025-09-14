@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core\Sessions;
+namespace Safe4Work\Core\Sessions;
 
 use Illuminate\Contracts\Cache\Factory as CacheFactory;
 use Illuminate\Session\SessionManager;
 use Illuminate\Session\SessionServiceProvider as LaravelSessionServiceProvider;
-use Leantime\Core\Middleware\StartSession;
+use Safe4Work\Core\Middleware\StartSession;
 
 class SessionServiceProvider extends LaravelSessionServiceProvider
 {

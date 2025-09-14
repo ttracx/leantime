@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Read\Repositories;
+namespace Safe4Work\Domain\Read\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 use PDO;
 
 class Read

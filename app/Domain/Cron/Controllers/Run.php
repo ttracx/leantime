@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Cron\Controllers;
+namespace Safe4Work\Domain\Cron\Controllers;
 
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Console\ConsoleKernel;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Console\ConsoleKernel;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Events\EventDispatcher;
 use PHPMailer\PHPMailer\Exception;
 use Symfony\Component\HttpFoundation\Response;
 

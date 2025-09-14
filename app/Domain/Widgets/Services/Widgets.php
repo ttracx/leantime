@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Services;
+namespace Safe4Work\Domain\Widgets\Services;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Support\Facades\Cache;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Users\Services\Users;
-use Leantime\Domain\Widgets\Models\Widget;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Users\Services\Users;
+use Safe4Work\Domain\Widgets\Models\Widget;
 
 class Widgets
 {

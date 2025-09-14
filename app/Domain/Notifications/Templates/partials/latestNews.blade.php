@@ -1,4 +1,4 @@
-<h1>Latest From Leantime</h1>
+<h1>Latest From Safe4Work</h1>
 <br />
 <div>
     <ul>

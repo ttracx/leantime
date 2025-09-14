@@ -4,10 +4,10 @@
  * Client class - All data access for clients
  */
 
-namespace Leantime\Domain\Clients\Repositories;
+namespace Safe4Work\Domain\Clients\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Db\Repository;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Repository;
 use PDO;
 
 class Clients extends Repository

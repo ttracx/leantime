@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Entityrelations\Repositories;
+namespace Safe4Work\Domain\Entityrelations\Repositories;
 
 use Exception;
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 use PDO;
 
 class Entityrelations

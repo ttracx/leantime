@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Projects\Middleware;
+namespace Safe4Work\Domain\Projects\Middleware;
 
 use Closure;
-use Leantime\Core\Http\HtmxRequest;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Core\Http\HtmxRequest;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
 use Symfony\Component\HttpFoundation\Response;
 
 class CurrentProject

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Reports\Models;
+namespace Safe4Work\Domain\Reports\Models;
 
 class Reports
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Leantime\Domain\Oidc\Services;
+namespace Safe4Work\Domain\Oidc\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Language;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Language;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use OpenSSLAsymmetricKey;
 use phpseclib3\Crypt\PublicKeyLoader;
 use phpseclib3\Math\BigInteger;

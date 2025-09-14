@@ -4,7 +4,7 @@
     'allowSubtaskCreation' => false
  ])
 
-@if ($login::userIsAtLeast(\Leantime\Domain\Auth\Models\Roles::$editor))
+@if ($login::userIsAtLeast(\Safe4Work\Domain\Auth\Models\Roles::$editor))
 
     <div class="inlineDropDownContainer" style="float:right;">
 

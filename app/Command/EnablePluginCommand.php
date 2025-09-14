@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;

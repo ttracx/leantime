@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Help\Controllers;
+namespace Safe4Work\Domain\Help\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Help\Contracts\OnboardingSteps;
-use Leantime\Domain\Help\Services\Helper;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Help\Contracts\OnboardingSteps;
+use Safe4Work\Domain\Help\Services\Helper;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class FirstLogin extends Controller
 {

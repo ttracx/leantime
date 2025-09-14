@@ -1,30 +1,30 @@
 <?php
 
-namespace Leantime\Domain\Projects\Services;
+namespace Safe4Work\Domain\Projects\Services;
 
 use DateInterval;
 use DateTime;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Events\EventDispatcher as EventCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Core\Support\Avatarcreator;
-use Leantime\Core\Support\FromFormat;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Files\Services\Files;
-use Leantime\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
-use Leantime\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
-use Leantime\Domain\Notifications\Models\Notification;
-use Leantime\Domain\Notifications\Services\Messengers;
-use Leantime\Domain\Notifications\Services\Notifications as NotificationService;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Queue\Repositories\Queue as QueueRepository;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
-use Leantime\Domain\Wiki\Repositories\Wiki;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\EventDispatcher as EventCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Core\Support\Avatarcreator;
+use Safe4Work\Core\Support\FromFormat;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Files\Services\Files;
+use Safe4Work\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
+use Safe4Work\Domain\Notifications\Models\Notification;
+use Safe4Work\Domain\Notifications\Services\Messengers;
+use Safe4Work\Domain\Notifications\Services\Notifications as NotificationService;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Queue\Repositories\Queue as QueueRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Wiki\Repositories\Wiki;
 use SVG\SVG;
 use Symfony\Component\HttpFoundation\Response;
 

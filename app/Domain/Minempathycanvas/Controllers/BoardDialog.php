@@ -4,7 +4,7 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Minempathycanvas\Controllers;
+namespace Safe4Work\Domain\Minempathycanvas\Controllers;
 
 class BoardDialog extends \Leantime\Domain\Canvas\Controllers\BoardDialog
 {

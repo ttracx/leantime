@@ -4,7 +4,7 @@
  * Strategy Brief - Controller / Edit Canvas Item
  */
 
-namespace Leantime\Domain\Sbcanvas\Controllers;
+namespace Safe4Work\Domain\Sbcanvas\Controllers;
 
 class EditCanvasItem extends \Leantime\Domain\Canvas\Controllers\EditCanvasItem
 {

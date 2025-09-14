@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Files\Exceptions;
+namespace Safe4Work\Core\Files\Exceptions;
 
 use Exception;
 

@@ -4,9 +4,9 @@
  * Strategy Brief - Repository
  */
 
-namespace Leantime\Domain\Sbcanvas\Repositories;
+namespace Safe4Work\Domain\Sbcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Sbcanvas extends Canvas
 {

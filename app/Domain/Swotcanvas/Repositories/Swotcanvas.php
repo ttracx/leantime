@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Swotcanvas\Repositories;
+namespace Safe4Work\Domain\Swotcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Swotcanvas extends Canvas
 {

@@ -3,7 +3,7 @@
      * @todo Move this to Composer, or find a better
      *       way to add filters for all passed variables
      */
-    use Leantime\Domain\Auth\Models\Roles;
+    use Safe4Work\Domain\Auth\Models\Roles;
     $settingsLink = $tpl->dispatchTplFilter(
         'settingsLink',
         $settingsLink,

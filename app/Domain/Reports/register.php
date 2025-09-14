@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Reports;
+namespace Safe4Work\Domain\Reports;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 
 EventDispatcher::add_event_listener('leantime.core.console.consolekernel.schedule.cron', function ($params) {
 

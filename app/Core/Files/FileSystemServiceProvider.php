@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Files;
+namespace Safe4Work\Core\Files;
 
 use Illuminate\Filesystem\FilesystemServiceProvider as LaravelFilesystemServiceProvider;
-use Leantime\Core\Files\Contracts\FileManagerInterface;
+use Safe4Work\Core\Files\Contracts\FileManagerInterface;
 
 class FileSystemServiceProvider extends LaravelFilesystemServiceProvider
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Connector\Services;
+namespace Safe4Work\Domain\Connector\Services;
 
 use Illuminate\Support\Facades\Log;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Canvas\Repositories\Canvas;
-use Leantime\Domain\Goalcanvas\Repositories\Goalcanvas;
-use Leantime\Domain\Ideas\Repositories\Ideas;
-use Leantime\Domain\Projects\Services\Projects;
-use Leantime\Domain\Tickets\Services\Tickets;
-use Leantime\Domain\Users\Services\Users;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Goalcanvas\Repositories\Goalcanvas;
+use Safe4Work\Domain\Ideas\Repositories\Ideas;
+use Safe4Work\Domain\Projects\Services\Projects;
+use Safe4Work\Domain\Tickets\Services\Tickets;
+use Safe4Work\Domain\Users\Services\Users;
 use Ramsey\Uuid\Uuid;
 
 class Connector

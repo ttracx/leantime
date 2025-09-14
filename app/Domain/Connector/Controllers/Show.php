@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Connector\Controllers;
+namespace Safe4Work\Domain\Connector\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Connector\Services;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Connector\Services;
 
 class Show extends Controller
 {

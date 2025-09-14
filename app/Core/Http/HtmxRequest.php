@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Leantime\Core\Http;
+namespace Safe4Work\Core\Http;
 
 class HtmxRequest extends IncomingRequest
 {

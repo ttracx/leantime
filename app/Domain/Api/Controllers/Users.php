@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\File;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Files\Contracts\FileManagerInterface;
-use Leantime\Domain\Files\Repositories\Files as FileRepository;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Files\Contracts\FileManagerInterface;
+use Safe4Work\Domain\Files\Repositories\Files as FileRepository;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use SVG\SVG;
 use Symfony\Component\HttpFoundation\Response;
 

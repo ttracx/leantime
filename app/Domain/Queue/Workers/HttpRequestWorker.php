@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Queue\Workers;
+namespace Safe4Work\Domain\Queue\Workers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use Leantime\Core\Mailer;
-use Leantime\Domain\Queue\Repositories\Queue;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Users\Repositories\Users;
+use Safe4Work\Core\Mailer;
+use Safe4Work\Domain\Queue\Repositories\Queue;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Users\Repositories\Users;
 
 class HttpRequestWorker
 {

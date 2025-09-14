@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Models;
+namespace Safe4Work\Domain\Plugins\Models;
 
 use Illuminate\Support\Str;
-use Leantime\Domain\Plugins\Contracts\PluginDisplayStrategy;
+use Safe4Work\Domain\Plugins\Contracts\PluginDisplayStrategy;
 
 class InstalledPlugin implements PluginDisplayStrategy
 {

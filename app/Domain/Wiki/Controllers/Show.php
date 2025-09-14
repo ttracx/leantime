@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Controllers;
+namespace Safe4Work\Domain\Wiki\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Wiki\Models\Wiki;
-use Leantime\Domain\Wiki\Services\Wiki as WikiService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Wiki\Models\Wiki;
+use Safe4Work\Domain\Wiki\Services\Wiki as WikiService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Show extends Controller

@@ -1,4 +1,4 @@
-@if ($login::userIsAtLeast(\Leantime\Domain\Auth\Models\Roles::$editor, true))
+@if ($login::userIsAtLeast(\Safe4Work\Domain\Auth\Models\Roles::$editor, true))
 
     <li class='timerHeadMenu' id='timerHeadMenu' hx-get="{{BASE_URL}}/timesheets/stopwatch/get-status" hx-trigger="timerUpdate from:body">
 

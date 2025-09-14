@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Http;
+namespace Safe4Work\Core\Http;
 
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Illuminate\Foundation\Http\Kernel;
@@ -8,9 +8,9 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Middleware\AuthenticateSession;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Middleware\AuthenticateSession;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class HttpKernel extends Kernel

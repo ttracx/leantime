@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Timesheets\Controllers;
+namespace Safe4Work\Domain\Timesheets\Controllers;
 
 use Carbon\CarbonInterface;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowMyList extends Controller

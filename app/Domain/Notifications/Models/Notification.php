@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Models;
+namespace Safe4Work\Domain\Notifications\Models;
 
 class Notification
 {

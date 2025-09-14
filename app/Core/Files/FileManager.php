@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Core\Files;
+namespace Safe4Work\Core\Files;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Files\Contracts\FileManagerInterface;
-use Leantime\Core\Files\Exceptions\FileValidationException;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Files\Contracts\FileManagerInterface;
+use Safe4Work\Core\Files\Exceptions\FileValidationException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Response;
 

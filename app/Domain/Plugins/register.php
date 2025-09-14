@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Plugins;
+namespace Safe4Work\Domain\Plugins;
 
 use Illuminate\Console\Scheduling\Schedule;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Domain\Setting\Services\Setting as SettingsService;
-use Leantime\Domain\Users\Services\Users as UsersService;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Domain\Setting\Services\Setting as SettingsService;
+use Safe4Work\Domain\Users\Services\Users as UsersService;
 
 EventDispatcher::add_event_listener('leantime.core.console.consolekernel.schedule.cron', function ($params) {
 

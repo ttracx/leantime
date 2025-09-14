@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Bootstrap;
+namespace Safe4Work\Core\Bootstrap;
 
 use Illuminate\Contracts\Foundation\Application;
-use Leantime\Core\Console\CliRequest;
+use Safe4Work\Core\Console\CliRequest;
 
 class SetRequestForConsole
 {

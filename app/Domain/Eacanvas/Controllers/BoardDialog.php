@@ -4,7 +4,7 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Eacanvas\Controllers;
+namespace Safe4Work\Domain\Eacanvas\Controllers;
 
 class BoardDialog extends \Leantime\Domain\Canvas\Controllers\BoardDialog
 {

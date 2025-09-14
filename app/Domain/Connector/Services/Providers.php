@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Connector\Services;
+namespace Safe4Work\Domain\Connector\Services;
 
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Connector\Models\Provider;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Connector\Models\Provider;
 
 class Providers
 {

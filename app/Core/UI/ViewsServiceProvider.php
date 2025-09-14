@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\UI;
+namespace Safe4Work\Core\UI;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
@@ -15,7 +15,7 @@ use Illuminate\View\Engines\PhpEngine;
 use Illuminate\View\Factory;
 use Illuminate\View\FileViewFinder;
 use Illuminate\View\ViewServiceProvider as LaravelViewServiceProvider;
-use Leantime\Core\Sessions\PathManifestRepository;
+use Safe4Work\Core\Sessions\PathManifestRepository;
 
 class ViewsServiceProvider extends LaravelViewServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Core\Console;
+namespace Safe4Work\Core\Console;
 
 use Illuminate\Console\Events\ArtisanStarting;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ProcessUtils;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Ideas\Controllers;
+namespace Safe4Work\Domain\Ideas\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
 
 class DelCanvas extends Controller
 {

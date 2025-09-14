@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Services;
+namespace Safe4Work\Domain\Notifications\Services;
 
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Notifications\Repositories\Notifications as NotificationRepository;
-use Leantime\Domain\Setting\Services\Setting;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Notifications\Repositories\Notifications as NotificationRepository;
+use Safe4Work\Domain\Setting\Services\Setting;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 /**
  * @api

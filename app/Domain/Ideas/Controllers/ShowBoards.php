@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Ideas\Controllers;
+namespace Safe4Work\Domain\Ideas\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Queue\Repositories\Queue as QueueRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Queue\Repositories\Queue as QueueRepository;
 
 class ShowBoards extends Controller
 {

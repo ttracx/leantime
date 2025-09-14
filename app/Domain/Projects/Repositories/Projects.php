@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Domain\Projects\Repositories;
+namespace Safe4Work\Domain\Projects\Repositories;
 
 use DateInterval;
 use DatePeriod;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Events\DispatchesEvents as EventhelperCore;
-use Leantime\Core\Support\Avatarcreator;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Events\DispatchesEvents as EventhelperCore;
+use Safe4Work\Core\Support\Avatarcreator;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use PDO;
 use SVG\SVG;
 

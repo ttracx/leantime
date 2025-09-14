@@ -4,14 +4,14 @@
  * Generates an JSON-RPC 2.0 API
  */
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Exceptions\MissingParameterException;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Exceptions\MissingParameterException;
 use ReflectionClass;
 use Symfony\Component\HttpFoundation\Response;
 

@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Obmcanvas\Repositories;
+namespace Safe4Work\Domain\Obmcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Obmcanvas extends Canvas
 {

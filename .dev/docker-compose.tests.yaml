@@ -3,7 +3,7 @@
 # It is not to be used for development
 #
 services:
-  leantime-dev:
+  safe4work-dev:
     volumes:
       - "../:/var/www/html"
       - "./xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini"
@@ -14,14 +14,14 @@ services:
       - "44302:443"
     environment:
       LEAN_ENV: 'testing'
-      LEAN_DB_HOST: 'leantime-db'
-      LEAN_DB_DATABASE: 'leantime_test'
+      LEAN_DB_HOST: 'safe4work-db'
+      LEAN_DB_DATABASE: 'safe4work_test'
     env_file:
       - test.env
     depends_on:
-      leantime-db:
+      safe4work-db:
         condition: service_healthy
 
-  leantime-db:
+  safe4work-db:
     environment:
-      MYSQL_DATABASE: leantime_test
+      MYSQL_DATABASE: safe4work_test

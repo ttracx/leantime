@@ -1,17 +1,17 @@
 <?php
 
-namespace Leantime\Domain\Canvas\Controllers;
+namespace Safe4Work\Domain\Canvas\Controllers;
 
 use Illuminate\Support\Str;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Core\Language;
-use Leantime\Core\UI\Template;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\UI\Template;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 /**
  * editCanvasItem class - Generic canvas controller / Edit Canvas Item

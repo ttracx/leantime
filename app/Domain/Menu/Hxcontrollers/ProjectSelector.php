@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Menu\Hxcontrollers;
+namespace Safe4Work\Domain\Menu\Hxcontrollers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Menu\Services\Menu;
-use Leantime\Domain\Timesheets\Services\Timesheets;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Menu\Services\Menu;
+use Safe4Work\Domain\Timesheets\Services\Timesheets;
 
 class ProjectSelector extends HtmxController
 {

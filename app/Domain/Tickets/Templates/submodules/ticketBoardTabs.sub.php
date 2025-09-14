@@ -2,7 +2,7 @@
 
 <?php
 
-use Leantime\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Controller\Frontcontroller;
 
 /**
  * @throws \Illuminate\Contracts\Container\BindingResolutionException

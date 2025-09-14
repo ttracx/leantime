@@ -23,7 +23,7 @@
 
         </div>
         <div class="commentLinks">
-            @if ($login::userIsAtLeast(\Leantime\Domain\Auth\Models\Roles::$commenter))
+            @if ($login::userIsAtLeast(\Safe4Work\Domain\Auth\Models\Roles::$commenter))
                 <a href="javascript:void(0);"
                    onclick="leantime.commentsController.toggleCommentBoxes({{ $comment['commentParent'] }})">
                     <span class="fa fa-reply"></span> {{ __('links.reply') }}

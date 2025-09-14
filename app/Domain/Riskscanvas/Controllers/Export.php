@@ -4,7 +4,7 @@
  * XML export
  */
 
-namespace Leantime\Domain\Riskscanvas\Controllers;
+namespace Safe4Work\Domain\Riskscanvas\Controllers;
 
 class Export extends \Leantime\Domain\Canvas\Controllers\Export
 {

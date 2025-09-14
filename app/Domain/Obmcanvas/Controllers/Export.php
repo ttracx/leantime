@@ -4,7 +4,7 @@
  * XML export
  */
 
-namespace Leantime\Domain\Obmcanvas\Controllers;
+namespace Safe4Work\Domain\Obmcanvas\Controllers;
 
 class Export extends \Leantime\Domain\Canvas\Controllers\Export
 {

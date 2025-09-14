@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Api\Contracts;
+namespace Safe4Work\Domain\Api\Contracts;
 
 enum StaticAssetType: string
 {

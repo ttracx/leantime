@@ -1,4 +1,4 @@
-@php use Leantime\Domain\Auth\Models\Roles; @endphp
+@php use Safe4Work\Domain\Auth\Models\Roles; @endphp
 @dispatchEvent('beforeHeadMenu')
 
 <ul class="headmenu pull-right">
@@ -178,7 +178,7 @@
                     </a>
             </li>
             <li>
-                <a href='https://github.com/Leantime/leantime/issues' target="_blank">
+                <a href='https://github.com/Safe4Work/leantime/issues' target="_blank">
                     {!! __("menu.submit_bug") !!}
                 </a>
             </li>
@@ -194,7 +194,7 @@
                 </a>
             </li>
             <li class="nav-header border">System</li>
-            <li><a href="https://github.com/Leantime/leantime/releases" target="_blank">Leantime V{{ app(\Leantime\Core\Configuration\AppSettings::class)->appVersion }}</a></li>
+            <li><a href="https://github.com/Safe4Work/leantime/releases" target="_blank">Safe4Work V{{ app(\Safe4Work\Core\Configuration\AppSettings::class)->appVersion }}</a></li>
         </ul>
     </li>
 

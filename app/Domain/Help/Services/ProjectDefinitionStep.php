@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Help\Services;
+namespace Safe4Work\Domain\Help\Services;
 
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Help\Contracts\OnboardingSteps;
-use Leantime\Domain\Projects\Services\Projects;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Help\Contracts\OnboardingSteps;
+use Safe4Work\Domain\Projects\Services\Projects;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class ProjectDefinitionStep implements OnboardingSteps
 {

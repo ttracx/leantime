@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Views\Composers;
+namespace Safe4Work\Views\Composers;
 
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\UI\Composer;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\UI\Composer;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class Header extends Composer
 {

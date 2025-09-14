@@ -4,12 +4,12 @@
  * showAll Class - show My Calender
  */
 
-namespace Leantime\Domain\Calendar\Controllers;
+namespace Safe4Work\Domain\Calendar\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Calendar\Services\Calendar;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Calendar\Services\Calendar;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 

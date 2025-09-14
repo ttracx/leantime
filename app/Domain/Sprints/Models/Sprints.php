@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Sprints\Models;
+namespace Safe4Work\Domain\Sprints\Models;
 
 class Sprints
 {

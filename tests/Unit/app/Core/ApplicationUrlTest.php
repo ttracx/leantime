@@ -2,10 +2,10 @@
 
 namespace Tests\Unit\App\Core;
 
-use Leantime\Core\Application;
-use Leantime\Core\Bootstrap\LoadConfig;
-use Leantime\Core\Bootstrap\SetRequestForConsole;
-use Leantime\Core\Configuration\Environment;
+use Safe4Work\Core\Application;
+use Safe4Work\Core\Bootstrap\LoadConfig;
+use Safe4Work\Core\Bootstrap\SetRequestForConsole;
+use Safe4Work\Core\Configuration\Environment;
 
 class ApplicationUrlTest extends \Unit\TestCase
 {

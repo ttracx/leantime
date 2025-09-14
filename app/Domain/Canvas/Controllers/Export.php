@@ -4,15 +4,15 @@
  * export class - Template - Export canvas as XML file
  */
 
-namespace Leantime\Domain\Canvas\Controllers;
+namespace Safe4Work\Domain\Canvas\Controllers;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
