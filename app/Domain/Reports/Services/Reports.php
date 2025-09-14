@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Reports\Services;
+namespace Safe4Work\Domain\Reports\Services;
 
 use DateTime;
 use DateTimeZone;
@@ -10,34 +10,34 @@ use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\AppSettings as AppSettingCore;
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\UI\Template as TemplateCore;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Eacanvas\Repositories\Eacanvas as EacanvaRepository;
-use Leantime\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
-use Leantime\Domain\Insightscanvas\Repositories\Insightscanvas as InsightscanvaRepository;
-use Leantime\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
-use Leantime\Domain\Minempathycanvas\Repositories\Minempathycanvas as MinempathycanvaRepository;
-use Leantime\Domain\Obmcanvas\Repositories\Obmcanvas as ObmcanvaRepository;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Reactions\Repositories\Reactions;
-use Leantime\Domain\Reports\Repositories\Reports as ReportRepository;
-use Leantime\Domain\Retroscanvas\Repositories\Retroscanvas as RetroscanvaRepository;
-use Leantime\Domain\Riskscanvas\Repositories\Riskscanvas as RiskscanvaRepository;
-use Leantime\Domain\Sbcanvas\Repositories\Sbcanvas as SbcanvaRepository;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Setting\Services\Setting as SettingsService;
-use Leantime\Domain\Sprints\Repositories\Sprints as SprintRepository;
-use Leantime\Domain\Swotcanvas\Repositories\Swotcanvas as SwotcanvaRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
-use Leantime\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
-use Leantime\Domain\Valuecanvas\Repositories\Valuecanvas as ValuecanvaRepository;
-use Leantime\Domain\Wiki\Repositories\Wiki as WikiRepository;
+use Safe4Work\Core\Configuration\AppSettings as AppSettingCore;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\UI\Template as TemplateCore;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Eacanvas\Repositories\Eacanvas as EacanvaRepository;
+use Safe4Work\Domain\Goalcanvas\Repositories\Goalcanvas as GoalcanvaRepository;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Domain\Insightscanvas\Repositories\Insightscanvas as InsightscanvaRepository;
+use Safe4Work\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
+use Safe4Work\Domain\Minempathycanvas\Repositories\Minempathycanvas as MinempathycanvaRepository;
+use Safe4Work\Domain\Obmcanvas\Repositories\Obmcanvas as ObmcanvaRepository;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Reactions\Repositories\Reactions;
+use Safe4Work\Domain\Reports\Repositories\Reports as ReportRepository;
+use Safe4Work\Domain\Retroscanvas\Repositories\Retroscanvas as RetroscanvaRepository;
+use Safe4Work\Domain\Riskscanvas\Repositories\Riskscanvas as RiskscanvaRepository;
+use Safe4Work\Domain\Sbcanvas\Repositories\Sbcanvas as SbcanvaRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Setting\Services\Setting as SettingsService;
+use Safe4Work\Domain\Sprints\Repositories\Sprints as SprintRepository;
+use Safe4Work\Domain\Swotcanvas\Repositories\Swotcanvas as SwotcanvaRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Domain\Valuecanvas\Repositories\Valuecanvas as ValuecanvaRepository;
+use Safe4Work\Domain\Wiki\Repositories\Wiki as WikiRepository;
 
 /**
  * @api

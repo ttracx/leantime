@@ -4,7 +4,7 @@
  * Controller / Edit Comments
  */
 
-namespace Leantime\Domain\Retroscanvas\Controllers;
+namespace Safe4Work\Domain\Retroscanvas\Controllers;
 
 class EditCanvasComment extends \Leantime\Domain\Canvas\Controllers\EditCanvasComment
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Support;
+namespace Safe4Work\Core\Support;
 
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;
@@ -10,8 +10,8 @@ use DateTime;
 use DateTimeInterface;
 use DateTimeZone;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Language;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Language;
 
 /**
  * Class DateTimeHelper

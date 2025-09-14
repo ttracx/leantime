@@ -4,14 +4,14 @@
  * showAll Class - show My Calender
  */
 
-namespace Leantime\Domain\Calendar\Controllers;
+namespace Safe4Work\Domain\Calendar\Controllers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Calendar\Repositories\Calendar as CalendarRepository;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Calendar\Repositories\Calendar as CalendarRepository;
 
 class ExternalCal extends Controller
 {

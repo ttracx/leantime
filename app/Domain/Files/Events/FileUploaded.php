@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Files\Events;
+namespace Safe4Work\Domain\Files\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;

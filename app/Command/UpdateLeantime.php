@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Http;
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Domain\Plugins\Services\Plugins;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Domain\Plugins\Services\Plugins;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;

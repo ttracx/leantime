@@ -1,19 +1,19 @@
 <?php
 
-namespace Leantime\Domain\Projects\Controllers;
+namespace Safe4Work\Domain\Projects\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Mailer as MailerCore;
-use Leantime\Core\Support\FromFormat;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Menu\Repositories\Menu as MenuRepository;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Queue\Repositories\Queue as QueueRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Mailer as MailerCore;
+use Safe4Work\Core\Support\FromFormat;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Menu\Repositories\Menu as MenuRepository;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Queue\Repositories\Queue as QueueRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 class NewProject extends Controller
 {

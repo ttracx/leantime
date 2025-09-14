@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Auth\Guards;
+namespace Safe4Work\Domain\Auth\Guards;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\UserProvider;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Domain\Api\Services\Api;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Domain\Api\Services\Api;
 
 class ApiGuard implements Guard
 {

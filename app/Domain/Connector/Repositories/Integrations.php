@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Connector\Repositories;
+namespace Safe4Work\Domain\Connector\Repositories;
 
-use Leantime\Core\Db\Repository;
-use Leantime\Domain\Connector\Models\Integration;
+use Safe4Work\Core\Db\Repository;
+use Safe4Work\Domain\Connector\Models\Integration;
 
 class Integrations extends Repository
 {

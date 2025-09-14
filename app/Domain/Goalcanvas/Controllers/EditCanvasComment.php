@@ -4,16 +4,16 @@
  * editCanvasComment class - Generic canvas controller / Edit Comments
  */
 
-namespace Leantime\Domain\Goalcanvas\Controllers;
+namespace Safe4Work\Domain\Goalcanvas\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class EditCanvasComment extends Controller
 {

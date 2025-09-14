@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Api\Services;
+namespace Safe4Work\Domain\Api\Services;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Api\Repositories\Api as ApiRepository;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Api\Repositories\Api as ApiRepository;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use RangeException;
 
 class Api

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Exceptions;
+namespace Safe4Work\Core\Exceptions;
 
 use Closure;
 use Exception;
@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Reflector;
 use Illuminate\Support\Traits\ReflectsClosures;
 use InvalidArgumentException;
-use Leantime\Core\Application;
-use Leantime\Core\UI\Template;
+use Safe4Work\Core\Application;
+use Safe4Work\Core\UI\Template;
 use Psr\Log\LoggerInterface;
 use Sentry\Laravel\Integration;
 use Symfony\Component\Console\Application as ConsoleApplication;

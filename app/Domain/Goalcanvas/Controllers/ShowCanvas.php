@@ -4,15 +4,15 @@
  * Controller
  */
 
-namespace Leantime\Domain\Goalcanvas\Controllers;
+namespace Safe4Work\Domain\Goalcanvas\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Mailer;
-use Leantime\Domain\Canvas\Services\Canvas as CanvasService;
-use Leantime\Domain\Goalcanvas\Services\Goalcanvas;
-use Leantime\Domain\Projects\Services\Projects;
-use Leantime\Domain\Queue\Repositories\Queue as QueueRepo;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Mailer;
+use Safe4Work\Domain\Canvas\Services\Canvas as CanvasService;
+use Safe4Work\Domain\Goalcanvas\Services\Goalcanvas;
+use Safe4Work\Domain\Projects\Services\Projects;
+use Safe4Work\Domain\Queue\Repositories\Queue as QueueRepo;
 
 class ShowCanvas extends Controller
 {

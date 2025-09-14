@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Dashboard\Repositories;
+namespace Safe4Work\Domain\Dashboard\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 
 class Dashboard
 {

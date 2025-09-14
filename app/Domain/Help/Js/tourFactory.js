@@ -43,7 +43,7 @@ leantime.tourFactory = (function () {
                 {
                     id: "welcome-step",
                     title: "👋 Welcome to the Dashboard Tour",
-                    text: "Let's start with a few basics to get you up to speed on the navigation and different elements inside Leantime.",
+                    text: "Let's start with a few basics to get you up to speed on the navigation and different elements inside Safe4Work.",
                 },
                 {
                     id: "top-nav-step",
@@ -60,7 +60,7 @@ leantime.tourFactory = (function () {
                 {
                     id: "my-menu",
                     title: "My Profile Bar",
-                    text: "Here you'll find links to your account as well as notifications and latest news about Leantime.",
+                    text: "Here you'll find links to your account as well as notifications and latest news about Safe4Work.",
                     attachTo: { element: '.headmenu.pull-right', on: 'bottom' }
                 },
                 {
@@ -114,7 +114,7 @@ leantime.tourFactory = (function () {
                 {
                     id: "finish",
                     title: "Congratulations!",
-                    text: "You've completed the My Work dashboard tour. Head to <a href='"+leantime.appUrl+"/dashboard/show'>your project</a> to learn more about project management in Leantime.",
+                    text: "You've completed the My Work dashboard tour. Head to <a href='"+leantime.appUrl+"/dashboard/show'>your project</a> to learn more about project management in Safe4Work.",
                 },
             ],
             'projectDashboard': [
@@ -163,7 +163,7 @@ leantime.tourFactory = (function () {
                 {
                     id: 'finished',
                     title: "Congratulations!",
-                    text: "You've completed the project dashboard tour. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>To-Dos</a> to learn more about the various ways to manage your tasks in Leantime.",
+                    text: "You've completed the project dashboard tour. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>To-Dos</a> to learn more about the various ways to manage your tasks in Safe4Work.",
                 }
             ],
             'kanbanBoard': [
@@ -206,7 +206,7 @@ leantime.tourFactory = (function () {
                 {
                     id: 'kanban-congrats',
                     title: "Congratulations!",
-                    text: "This concludes the Kanban tour. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>Milestones</a> to learn how to create and manage milestones in Leantime.",
+                    text: "This concludes the Kanban tour. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>Milestones</a> to learn how to create and manage milestones in Safe4Work.",
                 }
             ],
             'milestoneView': [
@@ -237,7 +237,7 @@ leantime.tourFactory = (function () {
                 {
                     id: 'milestone-congrats',
                     title: "Congratulations!",
-                    text: "This concludes the milestone tour. Head to the <a href='"+leantime.appUrl+"/goalcanvas/dashboard'>Goals</a> to learn how to create and manage goals in Leantime.",
+                    text: "This concludes the milestone tour. Head to the <a href='"+leantime.appUrl+"/goalcanvas/dashboard'>Goals</a> to learn how to create and manage goals in Safe4Work.",
                 },
             ],
             'goalsView': [
@@ -267,7 +267,7 @@ leantime.tourFactory = (function () {
                 {
                     id: 'milestone-congrats',
                     title: "Congratulations!",
-                    text: "This concludes the goals tour. Milestones, Goals, and To-Dos are the basic building blocks in Leantime. Use them to break down your work into manageable chunks. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>Kanban Board</a> to review your tasks.",
+                    text: "This concludes the goals tour. Milestones, Goals, and To-Dos are the basic building blocks in Safe4Work. Use them to break down your work into manageable chunks. Head to the <a href='"+leantime.appUrl+"/tickets/showKanban'>Kanban Board</a> to review your tasks.",
                 },
             ]
         };

@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Projects\Hxcontrollers;
+namespace Safe4Work\Domain\Projects\Hxcontrollers;
 
 use Error;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Projects\Services\Projects;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Projects\Services\Projects;
 
 class Checklist extends HtmxController
 {

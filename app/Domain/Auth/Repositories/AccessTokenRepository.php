@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Auth\Repositories;
+namespace Safe4Work\Domain\Auth\Repositories;
 
 use Illuminate\Support\Str;
-use Leantime\Core\Db\Db;
+use Safe4Work\Core\Db\Db;
 use PDO;
 
 class AccessTokenRepository

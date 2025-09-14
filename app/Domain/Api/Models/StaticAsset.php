@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Api\Models;
+namespace Safe4Work\Domain\Api\Models;
 
-use Leantime\Domain\Api\Contracts\StaticAssetType;
+use Safe4Work\Domain\Api\Contracts\StaticAssetType;
 
 /**
  * Represents a static asset file.

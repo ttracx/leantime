@@ -10,7 +10,7 @@
 <meta name="color-scheme" content="{{ $themeColorMode }}">
 <meta name="theme" content="{{ $theme }}">
 <meta name="identifier-URL" content="{!! BASE_URL !!}">
-<meta name="leantime-version" content="{{ $version }}">
+    <meta name="safe4work-version" content="{{ $version }}">
 
 @dispatchEvent('afterMetaTags')
 
@@ -45,7 +45,7 @@
 
 <!--
 //For future file based ref js loading
-<script src="{!! BASE_URL !!}/dist/js/{{ ucwords(\Leantime\Core\Controller\Frontcontroller::getModuleName()) }}/Js/{{ \Leantime\Core\Controller\Frontcontroller::getModuleName() }}Controller.js"></script>
+<script src="{!! BASE_URL !!}/dist/js/{{ ucwords(\Safe4Work\Core\Controller\Frontcontroller::getModuleName()) }}/Js/{{ \Safe4Work\Core\Controller\Frontcontroller::getModuleName() }}Controller.js"></script>
 -->
 
 <!-- theme & custom -->
@@ -101,5 +101,6 @@
 
 
 <script>
-    window.leantime.currentProject = '{{ session("currentProject") }}';
+    window.safe4work = window.leantime || {};
+    window.safe4work.currentProject = '{{ session("currentProject") }}';
 </script>

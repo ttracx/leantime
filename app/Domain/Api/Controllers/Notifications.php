@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Notifications\Services\Notifications as NotificationService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Notifications\Services\Notifications as NotificationService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Notifications extends Controller

@@ -16,8 +16,8 @@
         <div class="col-md-12" style="font-size:var(--font-size-l);">
             <br />
             <div id="firstLoginContent">
-                <p><br />Projects in Leantime are collaborative workspaces where you and your team organize, track, and deliver work efficiently. Each project serves as a container for related goals, tasks, milestones, and allows you to monitor progress in one central location. <br /><br />
-                    Whether you're managing work, school, or internal personal initiatives, Leantime projects provide the structure and tools needed to turn ideas into successful outcomes.
+                <p><br />Projects in Safe4Work are collaborative workspaces where you and your team organize, track, and deliver work efficiently. Each project serves as a container for related goals, tasks, milestones, and allows you to monitor progress in one central location. <br /><br />
+                    Whether you're managing work, school, or internal personal initiatives, Safe4Work projects provide the structure and tools needed to turn ideas into successful outcomes.
                 </p><br />
             </div>
             <br /><br />

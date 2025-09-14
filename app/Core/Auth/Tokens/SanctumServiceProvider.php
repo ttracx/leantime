@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core\Auth\Tokens;
+namespace Safe4Work\Core\Auth\Tokens;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Sanctum\Contracts\HasAbilities;
 use Laravel\Sanctum\Sanctum as SanctumBase;
-use Leantime\Domain\Auth\Services\AccessToken;
+use Safe4Work\Domain\Auth\Services\AccessToken;
 
 class SanctumServiceProvider extends ServiceProvider
 {

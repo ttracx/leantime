@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Menu\Composers;
+namespace Safe4Work\Domain\Menu\Composers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Composer;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\IncomingRequest as IncomingRequestCore;
-use Leantime\Domain\Menu\Repositories\Menu as MenuRepository;
+use Safe4Work\Core\Controller\Composer;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\IncomingRequest as IncomingRequestCore;
+use Safe4Work\Domain\Menu\Repositories\Menu as MenuRepository;
 
 class ProjectSelector extends Composer
 {

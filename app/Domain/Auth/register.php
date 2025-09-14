@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 
 EventDispatcher::add_filter_listener('leantime.domain.auth.template.userInvite.welcomeText', function ($content, $params) {
     $language = app()->make(\Leantime\Core\Language::class);

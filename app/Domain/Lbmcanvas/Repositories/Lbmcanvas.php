@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Lbmcanvas\Repositories;
+namespace Safe4Work\Domain\Lbmcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Lbmcanvas extends Canvas
 {

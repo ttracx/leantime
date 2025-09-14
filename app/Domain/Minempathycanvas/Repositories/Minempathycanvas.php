@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Minempathycanvas\Repositories;
+namespace Safe4Work\Domain\Minempathycanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Minempathycanvas extends Canvas
 {

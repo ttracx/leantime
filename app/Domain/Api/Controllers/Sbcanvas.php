@@ -4,7 +4,7 @@
  * - sbcanvas class - Controller API
  */
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 class Sbcanvas extends Canvas
 {

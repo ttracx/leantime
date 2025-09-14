@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core\Db;
+namespace Safe4Work\Core\Db;
 
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 use PDO;
 
 /**

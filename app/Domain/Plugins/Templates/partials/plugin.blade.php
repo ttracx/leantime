@@ -8,7 +8,7 @@
             <div class="col-md-12 tw-overflow-hidden tw-mb-m">
                 <img src="{{ $plugin->getPluginImageData() }}" width="75" height="75" class="tw-rounded tw-mt-base"/>
 
-                @if($plugin instanceof \Leantime\Domain\Plugins\Models\MarketplacePlugin)
+                @if($plugin instanceof \Safe4Work\Domain\Plugins\Models\MarketplacePlugin)
                     <div
                         class="certififed label-default tw-absolute tw-top-[10px] tw-right-[10px] tw-text-primary tw-rounded-full tw-text-sm"
                         data-tippy-content="{{ __('marketplace.certified_tooltip') }}"

@@ -1,18 +1,18 @@
 <?php
 
-namespace Leantime\Domain\Timesheets\Controllers;
+namespace Safe4Work\Domain\Timesheets\Controllers;
 
 use Carbon\CarbonInterface;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
-use Leantime\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowMy extends Controller

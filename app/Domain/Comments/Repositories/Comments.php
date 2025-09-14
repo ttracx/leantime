@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Comments\Repositories;
+namespace Safe4Work\Domain\Comments\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 use PDO;
 
 class Comments

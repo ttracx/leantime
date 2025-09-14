@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Closure;
 use Illuminate\Cache\RateLimiter;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\ApiRequest;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Domain\Api\Services\Api;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\ApiRequest;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Domain\Api\Services\Api;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

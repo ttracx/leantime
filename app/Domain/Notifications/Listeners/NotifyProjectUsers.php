@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Listeners;
+namespace Safe4Work\Domain\Notifications\Listeners;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Domain\Notifications\Services\Notifications;
+use Safe4Work\Domain\Notifications\Services\Notifications;
 
 class NotifyProjectUsers
 {

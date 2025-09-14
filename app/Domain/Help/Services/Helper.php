@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Help\Services;
+namespace Safe4Work\Domain\Help\Services;
 
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class Helper
 {

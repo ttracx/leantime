@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Reactions\Services\Reactions as ReactionService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Reactions\Services\Reactions as ReactionService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Reactions extends Controller

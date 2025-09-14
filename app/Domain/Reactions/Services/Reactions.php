@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Reactions\Services;
+namespace Safe4Work\Domain\Reactions\Services;
 
 /**
  * @api

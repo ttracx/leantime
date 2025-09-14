@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Models;
+namespace Safe4Work\Domain\Tickets\Models;
 
 class Tickets
 {

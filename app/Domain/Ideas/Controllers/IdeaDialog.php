@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Ideas\Controllers;
+namespace Safe4Work\Domain\Ideas\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class IdeaDialog extends Controller
 {

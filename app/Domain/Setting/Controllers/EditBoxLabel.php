@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Domain\Setting\Controllers;
+namespace Safe4Work\Domain\Setting\Controllers;
 
 use Illuminate\Support\Facades\Cache;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeaRepository;
-use Leantime\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
-use Leantime\Domain\Retroscanvas\Repositories\Retroscanvas as RetroscanvaRepository;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeaRepository;
+use Safe4Work\Domain\Leancanvas\Repositories\Leancanvas as LeancanvaRepository;
+use Safe4Work\Domain\Retroscanvas\Repositories\Retroscanvas as RetroscanvaRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
 
 class EditBoxLabel extends Controller
 {

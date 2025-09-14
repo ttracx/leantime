@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Smcanvas\Repositories;
+namespace Safe4Work\Domain\Smcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Smcanvas extends Canvas
 {

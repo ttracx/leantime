@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Connector\Repositories;
+namespace Safe4Work\Domain\Connector\Repositories;
 
-use Leantime\Domain\Connector\Models\FieldTypes;
+use Safe4Work\Domain\Connector\Models\FieldTypes;
 
 class LeantimeEntities
 {

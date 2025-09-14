@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Projects\Controllers;
+namespace Safe4Work\Domain\Projects\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Modulemanager\Services\Modulemanager;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Modulemanager\Services\Modulemanager;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
 
 class Createnew extends Controller
 {

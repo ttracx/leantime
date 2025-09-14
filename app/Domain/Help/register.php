@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 
 EventDispatcher::addEventListener('leantime.domain.auth.*.userSignUpSuccess', function ($params) {
 

@@ -1,8 +1,8 @@
 
 
 services:
-  leantime-dev:
-    container_name: leantime-dev
+  safe4work-dev:
+    container_name: safe4work-dev
     build: .
     ports:
       - "5080:8080" #Using ports that are hopefully available. format is: 80XX
@@ -15,17 +15,17 @@ services:
      - "./xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini"
      - "./error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini"
     environment:
-      LEAN_DB_HOST: 'leantime-db'
-      LEAN_DB_USER: 'leantime'
-      LEAN_DB_PASSWORD: 'leantime'
-      LEAN_DB_DATABASE: 'leantime'
+      LEAN_DB_HOST: 'safe4work-db'
+      LEAN_DB_USER: 'safe4work'
+      LEAN_DB_PASSWORD: 'safe4work'
+      LEAN_DB_DATABASE: 'safe4work'
       LEAN_DB_PORT: '3306'
 
     depends_on:
-      leantime-db:
+      safe4work-db:
         condition: service_healthy
     networks:
-      - leantime_internal
+      - safe4work_internal
 #      - traefik
 #    labels:
 #      - "traefik.enable=true"
@@ -38,26 +38,26 @@ services:
 #      - "traefik.http.routers.leantime.tls=true"
 
 
-  leantime-redis:
-    container_name: leantime-redis
+  safe4work-redis:
+    container_name: safe4work-redis
     image: redis:4.0
     ports:
       - "6379"
     networks:
-      - leantime_internal
-  leantime-db:
+      - safe4work_internal
+  safe4work-db:
     image: mysql:8.4
     ports:
       - "3306"
     environment:
-      MYSQL_ROOT_PASSWORD: 'leantime'
-      MYSQL_USER: 'leantime'
-      MYSQL_PASSWORD: 'leantime'
-      MYSQL_DATABASE: 'leantime'
+      MYSQL_ROOT_PASSWORD: 'safe4work'
+      MYSQL_USER: 'safe4work'
+      MYSQL_PASSWORD: 'safe4work'
+      MYSQL_DATABASE: 'safe4work'
     networks:
-      - leantime_internal
+      - safe4work_internal
     volumes:
-      - leantime-mysql:/var/lib/mysql:rw
+      - safe4work-mysql:/var/lib/mysql:rw
     healthcheck:
       test: "mysql -u$$MYSQL_USER -p$$MYSQL_PASSWORD -e 'SELECT 1'"
       interval: 5s
@@ -74,7 +74,7 @@ services:
       - "4444"
       - "7900"
     networks:
-      - leantime_internal
+      - safe4work_internal
   maildev:
     image: maildev/maildev
     environment:
@@ -83,25 +83,25 @@ services:
     ports:
       - "8081"
     networks:
-      - leantime_internal
+      - safe4work_internal
   s3ninja:
     image: scireum/s3-ninja
     ports:
       - "8083"
     networks:
-      - leantime_internal
+      - safe4work_internal
     volumes:
       - s3ninja-data:/home/sirius/data
 
 
 networks:
-  leantime_internal:
+  safe4work_internal:
     driver: bridge
-    name: leantime_internal
+    name: safe4work_internal
 #  traefik:
 #    external: true
 #    name: traefik
 
 volumes:
-  leantime-mysql:
+  safe4work-mysql:
   s3ninja-data:

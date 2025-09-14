@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Queue;
+namespace Safe4Work\Domain\Queue;
 
 use Illuminate\Console\Scheduling\Schedule;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Domain\Queue\Workers\Workers;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Domain\Queue\Workers\Workers;
 
 EventDispatcher::add_event_listener('leantime.core.console.consolekernel.schedule.cron', function ($params) {
 

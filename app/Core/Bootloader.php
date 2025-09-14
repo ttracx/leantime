@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Core;
+namespace Safe4Work\Core;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Console\ConsoleKernel;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\HttpKernel;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Console\ConsoleKernel;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\HttpKernel;
+use Safe4Work\Core\Http\IncomingRequest;
 
 /**
  * Bootloader

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Cache\Redis;
+namespace Safe4Work\Core\Cache\Redis;
 
 use Illuminate\Redis\RedisManager;
 use Illuminate\Support\ServiceProvider;

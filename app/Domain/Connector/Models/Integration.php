@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Connector\Models;
+namespace Safe4Work\Domain\Connector\Models;
 
-use Leantime\Core\Db\DbColumn;
+use Safe4Work\Core\Db\DbColumn;
 
 class Integration
 {

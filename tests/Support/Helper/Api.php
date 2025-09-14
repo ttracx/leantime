@@ -3,7 +3,7 @@
 namespace Tests\Support\Helper;
 
 use Codeception\Module;
-use Leantime\Core\Application;
+use Safe4Work\Core\Application;
 
 class Api extends Module
 {

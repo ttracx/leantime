@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Http;
+namespace Safe4Work\Core\Http;
 
 /**
  * Class ApiRequest

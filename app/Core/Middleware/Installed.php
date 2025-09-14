@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Closure;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\IncomingRequest;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\IncomingRequest;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class Installed

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Models;
+namespace Safe4Work\Domain\Wiki\Models;
 
 class Wiki
 {

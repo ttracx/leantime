@@ -1,11 +1,11 @@
 #!/usr/bin/env php
 <?php
 
-use Leantime\Core\Console\ConsoleKernel;
+use Safe4Work\Core\Console\ConsoleKernel;
 use Symfony\Component\Console\Input\ArgvInput;
 
 define('LEAN_CLI', true);
-define('ARTISAN_BINARY', 'bin/leantime');
+define('ARTISAN_BINARY', 'bin/safe4work');
 
 require __DIR__.'/../vendor/autoload.php';
 

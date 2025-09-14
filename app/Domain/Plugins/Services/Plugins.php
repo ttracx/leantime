@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Services;
+namespace Safe4Work\Domain\Plugins\Services;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
@@ -10,16 +10,16 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Console\ConsoleKernel;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Notifications\Services\Notifications;
-use Leantime\Domain\Plugins\Models\InstalledPlugin;
-use Leantime\Domain\Plugins\Models\MarketplacePlugin;
-use Leantime\Domain\Plugins\Repositories\Plugins as PluginRepository;
-use Leantime\Domain\Setting\Services\Setting as SettingsService;
-use Leantime\Domain\Users\Services\Users as UsersService;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Console\ConsoleKernel;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Notifications\Services\Notifications;
+use Safe4Work\Domain\Plugins\Models\InstalledPlugin;
+use Safe4Work\Domain\Plugins\Models\MarketplacePlugin;
+use Safe4Work\Domain\Plugins\Repositories\Plugins as PluginRepository;
+use Safe4Work\Domain\Setting\Services\Setting as SettingsService;
+use Safe4Work\Domain\Users\Services\Users as UsersService;
 
 /**
  * @api

@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Views\Composers;
+namespace Safe4Work\Views\Composers;
 
-use Leantime\Core\UI\Composer;
-use Leantime\Core\UI\Theme;
+use Safe4Work\Core\UI\Composer;
+use Safe4Work\Core\UI\Theme;
 
 class Entry extends Composer
 {

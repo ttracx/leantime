@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Mailer;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Mailer;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

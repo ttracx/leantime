@@ -1,18 +1,18 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
 use DateInterval;
 use DateTime;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Notifications\Models\Notification as NotificationModel;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Tickets\Models\Tickets as TicketModel;
-use Leantime\Domain\Tickets\Repositories\Tickets as TicketRepository;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Notifications\Models\Notification as NotificationModel;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Tickets\Models\Tickets as TicketModel;
+use Safe4Work\Domain\Tickets\Repositories\Tickets as TicketRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class EditMilestone extends Controller
 {

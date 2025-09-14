@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Repositories;
+namespace Safe4Work\Domain\Wiki\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
-use Leantime\Domain\Wiki\Models\Article;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Wiki\Models\Article;
 use PDO;
 
 class Wiki extends Canvas

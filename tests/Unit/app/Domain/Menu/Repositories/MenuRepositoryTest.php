@@ -2,11 +2,11 @@
 
 namespace Unit\app\Domain\Menu\Repositories;
 
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Language;
-use Leantime\Domain\Menu\Repositories\Menu;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Tickets\Services\Tickets;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Language;
+use Safe4Work\Domain\Menu\Repositories\Menu;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Tickets\Services\Tickets;
 use Unit\TestCase;
 
 class MenuRepositoryTest extends TestCase

@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Menu\Services;
+namespace Safe4Work\Domain\Menu\Services;
 
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Setting\Services\Setting;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
-use Leantime\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Services\Users;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Setting\Services\Setting;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Services\Users;
 
 class Menu
 {

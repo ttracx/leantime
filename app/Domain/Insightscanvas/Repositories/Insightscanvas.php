@@ -4,9 +4,9 @@
  * Insights - Repository
  */
 
-namespace Leantime\Domain\Insightscanvas\Repositories;
+namespace Safe4Work\Domain\Insightscanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Insightscanvas extends Canvas
 {

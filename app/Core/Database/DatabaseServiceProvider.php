@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Database;
+namespace Safe4Work\Core\Database;
 
 use Illuminate\Database\DatabaseServiceProvider as LaravelDatabaseServiceProvider;
 

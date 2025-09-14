@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Encryption;
+namespace Safe4Work\Core\Encryption;
 
 class EncryptionServiceProvider extends \Illuminate\Encryption\EncryptionServiceProvider
 {

@@ -4,7 +4,7 @@
  * Controller
  */
 
-namespace Leantime\Domain\Swotcanvas\Controllers;
+namespace Safe4Work\Domain\Swotcanvas\Controllers;
 
 class ShowCanvas extends \Leantime\Domain\Canvas\Controllers\ShowCanvas
 {

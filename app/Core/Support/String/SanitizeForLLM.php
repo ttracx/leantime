@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Support\String;
+namespace Safe4Work\Core\Support\String;
 
 /**
  * @mixin \Illuminate\Support\Stringable

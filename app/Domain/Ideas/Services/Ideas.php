@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Ideas\Services;
+namespace Safe4Work\Domain\Ideas\Services;
 
-use Leantime\Domain\Ideas\Repositories\Ideas as IdeasRepository;
+use Safe4Work\Domain\Ideas\Repositories\Ideas as IdeasRepository;
 
 class Ideas
 {

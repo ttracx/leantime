@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Configuration;
+namespace Safe4Work\Core\Configuration;
 
 /**
  * appSettings class - System appSettings

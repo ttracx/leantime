@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Retroscanvas\Repositories;
+namespace Safe4Work\Domain\Retroscanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Retroscanvas extends Canvas
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Events;
+namespace Safe4Work\Core\Events;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Support\Traits\ReflectsClosures;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Routing\RouteLoader;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Routing\RouteLoader;
 
 /**
  * EventDispatcher class - Handles all events and filters

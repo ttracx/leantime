@@ -4,7 +4,7 @@
  * Strategy Brief - Controller
  */
 
-namespace Leantime\Domain\Sbcanvas\Controllers;
+namespace Safe4Work\Domain\Sbcanvas\Controllers;
 
 class ShowCanvas extends \Leantime\Domain\Canvas\Controllers\ShowCanvas
 {

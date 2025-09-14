@@ -4,9 +4,9 @@
  * Module Manager
  */
 
-namespace Leantime\Domain\Modulemanager\Services;
+namespace Safe4Work\Domain\Modulemanager\Services;
 
-use Leantime\Domain\Plugins\Services\Plugins;
+use Safe4Work\Domain\Plugins\Services\Plugins;
 
 class Modulemanager
 {

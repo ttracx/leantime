@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Illuminate\Console\Command;
-use Leantime\Domain\Plugins\Models\InstalledPlugin;
-use Leantime\Domain\Plugins\Services\Plugins;
+use Safe4Work\Domain\Plugins\Models\InstalledPlugin;
+use Safe4Work\Domain\Plugins\Services\Plugins;
 use Symfony\Component\Console\Exception\RuntimeException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

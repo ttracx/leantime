@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Comments\Controllers;
+namespace Safe4Work\Domain\Comments\Controllers;
 
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowAll extends Controller

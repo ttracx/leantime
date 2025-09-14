@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Plugins;
+namespace Safe4Work\Core\Plugins;
 
 class PluginManager
 {

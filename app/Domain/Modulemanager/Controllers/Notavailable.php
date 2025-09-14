@@ -4,10 +4,10 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\ModuleManager\Controllers;
+namespace Safe4Work\Domain\ModuleManager\Controllers;
 
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 class Notavailable
 {

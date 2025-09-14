@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Controllers;
+namespace Safe4Work\Domain\Wiki\Controllers;
 
-use Leantime\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 class Templates extends Controller

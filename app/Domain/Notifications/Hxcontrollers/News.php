@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Notifications\Hxcontrollers;
+namespace Safe4Work\Domain\Notifications\Hxcontrollers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Menu\Services\Menu;
-use Leantime\Domain\Timesheets\Services\Timesheets;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Menu\Services\Menu;
+use Safe4Work\Domain\Timesheets\Services\Timesheets;
 
 class News extends HtmxController
 {

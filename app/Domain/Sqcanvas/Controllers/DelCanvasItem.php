@@ -4,7 +4,7 @@
  * Controller / Delete Canvas Item
  */
 
-namespace Leantime\Domain\Sqcanvas\Controllers;
+namespace Safe4Work\Domain\Sqcanvas\Controllers;
 
 class DelCanvasItem extends \Leantime\Domain\Canvas\Controllers\DelCanvasItem
 {

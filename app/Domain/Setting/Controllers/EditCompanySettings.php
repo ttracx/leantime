@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Domain\Setting\Controllers;
+namespace Safe4Work\Domain\Setting\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Api\Services\Api as ApiService;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Reports\Services\Reports as ReportService;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Setting\Services\Setting as SettingService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Api\Services\Api as ApiService;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Reports\Services\Reports as ReportService;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Setting\Services\Setting as SettingService;
 
 class EditCompanySettings extends Controller
 {

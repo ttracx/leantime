@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
-use Leantime\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

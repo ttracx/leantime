@@ -1,16 +1,16 @@
 <?php
 
-namespace Leantime\Domain\Connector\Controllers;
+namespace Safe4Work\Domain\Connector\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Connector\Models\Integration as IntegrationModel;
-use Leantime\Domain\Connector\Repositories\LeantimeEntities;
-use Leantime\Domain\Connector\Services\Connector;
-use Leantime\Domain\Connector\Services\Integrations as IntegrationService;
-use Leantime\Domain\Connector\Services\Providers;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Connector\Models\Integration as IntegrationModel;
+use Safe4Work\Domain\Connector\Repositories\LeantimeEntities;
+use Safe4Work\Domain\Connector\Services\Connector;
+use Safe4Work\Domain\Connector\Services\Integrations as IntegrationService;
+use Safe4Work\Domain\Connector\Services\Providers;
 
 class Integration extends Controller
 {

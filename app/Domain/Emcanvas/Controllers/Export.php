@@ -4,7 +4,7 @@
  * XML export
  */
 
-namespace Leantime\Domain\Emcanvas\Controllers;
+namespace Safe4Work\Domain\Emcanvas\Controllers;
 
 class Export extends \Leantime\Domain\Canvas\Controllers\Export
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 use Symfony\Component\HttpFoundation\Response;
 
 class MoveTicket extends Controller

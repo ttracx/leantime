@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Repositories;
+namespace Safe4Work\Domain\Tickets\Repositories;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Cache;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Events\DispatchesEvents as EventhelperCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Users\Services\Users;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Events\DispatchesEvents as EventhelperCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Users\Services\Users;
 use PDO;
 
 class Tickets

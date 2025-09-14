@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Auth\Services;
+namespace Safe4Work\Domain\Auth\Services;
 
 use DateTimeInterface;
 use Illuminate\Validation\UnauthorizedException;
 use Laravel\Sanctum\Contracts\HasAbilities;
 use Laravel\Sanctum\HasApiTokens;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Repositories\AccessTokenRepository;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Repositories\AccessTokenRepository;
 
 class AccessToken implements HasAbilities
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 

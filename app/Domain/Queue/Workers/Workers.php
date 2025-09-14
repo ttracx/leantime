@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Queue\Workers;
+namespace Safe4Work\Domain\Queue\Workers;
 
 enum Workers: string
 {

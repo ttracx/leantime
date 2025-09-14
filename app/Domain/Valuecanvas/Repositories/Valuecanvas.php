@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Valuecanvas\Repositories;
+namespace Safe4Work\Domain\Valuecanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Valuecanvas extends Canvas
 {

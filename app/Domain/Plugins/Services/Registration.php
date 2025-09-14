@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Services;
+namespace Safe4Work\Domain\Plugins\Services;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Core\Language;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Core\Language;
 
 class Registration
 {

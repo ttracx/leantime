@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core\Db;
+namespace Safe4Work\Core\Db;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Database;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Database;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Events\DispatchesEvents;
 use PDO;
 use PDOStatement;
 use ReflectionClass;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Sprints\Repositories;
+namespace Safe4Work\Domain\Sprints\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
+use Safe4Work\Core\Db\Db as DbCore;
 use PDO;
 
 class Sprints

@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\CsvImport\Services;
+namespace Safe4Work\Domain\CsvImport\Services;
 
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Connector\Models\Entity;
-use Leantime\Domain\Connector\Models\Provider;
-use Leantime\Domain\Connector\Services\ProviderIntegration;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Connector\Models\Entity;
+use Safe4Work\Domain\Connector\Models\Provider;
+use Safe4Work\Domain\Connector\Services\ProviderIntegration;
 use Symfony\Component\HttpFoundation\Response;
 
 class CsvImport extends Provider implements ProviderIntegration

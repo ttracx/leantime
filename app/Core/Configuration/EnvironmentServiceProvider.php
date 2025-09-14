@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Configuration;
+namespace Safe4Work\Core\Configuration;
 
 use Illuminate\Support\ServiceProvider;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 class EnvironmentServiceProvider extends ServiceProvider
 {

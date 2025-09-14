@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Command;
+namespace Safe4Work\Command;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Domain\Help\Services\Helper;
-use Leantime\Domain\Install\Repositories\Install;
-use Leantime\Domain\Users\Repositories\Users;
+use Safe4Work\Domain\Help\Services\Helper;
+use Safe4Work\Domain\Install\Repositories\Install;
+use Safe4Work\Domain\Users\Repositories\Users;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

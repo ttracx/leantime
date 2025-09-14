@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\TwoFA\Controllers;
+namespace Safe4Work\Domain\TwoFA\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Verify extends Controller

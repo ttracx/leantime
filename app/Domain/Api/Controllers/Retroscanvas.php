@@ -4,7 +4,7 @@
  * - retroscanvas class - Controller API
  */
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 class Retroscanvas extends Canvas
 {

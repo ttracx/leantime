@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Environment\Commands;
+namespace Safe4Work\Domain\Environment\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

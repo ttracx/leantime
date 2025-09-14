@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Files\Services\Files as FileService;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Files\Services\Files as FileService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use Symfony\Component\HttpFoundation\Response;
 
 class Files extends Controller

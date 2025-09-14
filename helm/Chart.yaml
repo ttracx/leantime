@@ -1,6 +1,6 @@
 apiVersion: v2
-name: leantime
-description: A Leantime Helm chart for Kubernetes. Project management more capable than Trello and no where near as overwhelming as Jira
+name: safe4work
+description: A Safe4Work Helm chart for Kubernetes. AI-powered care management for neurodiverse individuals
 
 # A chart can be either an 'application' or a 'library' chart.
 #

@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Hxcontrollers;
+namespace Safe4Work\Domain\Widgets\Hxcontrollers;
 
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Setting\Services\Setting;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Setting\Services\Setting;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 /**
  * Class MyToDos

@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\Errors\Controllers;
+namespace Safe4Work\Domain\Errors\Controllers;
 
-use Leantime\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Controller;
 
 class Error501 extends Controller
 {

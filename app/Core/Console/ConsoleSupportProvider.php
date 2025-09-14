@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Console;
+namespace Safe4Work\Core\Console;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Foundation\Providers\ComposerServiceProvider;

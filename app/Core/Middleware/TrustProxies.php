@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Closure;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Http\IncomingRequest;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

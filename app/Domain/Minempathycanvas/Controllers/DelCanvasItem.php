@@ -4,7 +4,7 @@
  * Controller / Delete Canvas Item
  */
 
-namespace Leantime\Domain\Minempathycanvas\Controllers;
+namespace Safe4Work\Domain\Minempathycanvas\Controllers;
 
 class DelCanvasItem extends \Leantime\Domain\Canvas\Controllers\DelCanvasItem
 {

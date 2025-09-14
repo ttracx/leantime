@@ -4,7 +4,7 @@
  * Controller / Edit Canvas Item
  */
 
-namespace Leantime\Domain\Lbmcanvas\Controllers;
+namespace Safe4Work\Domain\Lbmcanvas\Controllers;
 
 class EditCanvasItem extends \Leantime\Domain\Canvas\Controllers\EditCanvasItem
 {

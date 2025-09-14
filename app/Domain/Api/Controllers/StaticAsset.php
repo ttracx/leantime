@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Domain\Api\Contracts\StaticAssetType;
-use Leantime\Domain\Api\Services\Api as ApiService;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Domain\Api\Contracts\StaticAssetType;
+use Safe4Work\Domain\Api\Services\Api as ApiService;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;

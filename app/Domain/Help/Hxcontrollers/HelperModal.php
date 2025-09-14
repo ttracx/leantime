@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Help\Hxcontrollers;
+namespace Safe4Work\Domain\Help\Hxcontrollers;
 
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Help\Services\Helper;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Help\Services\Helper;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 
 class HelperModal extends HtmxController
 {

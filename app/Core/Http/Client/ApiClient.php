@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Http\Client;
+namespace Safe4Work\Core\Http\Client;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;

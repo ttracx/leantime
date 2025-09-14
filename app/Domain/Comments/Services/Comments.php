@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Comments\Services;
+namespace Safe4Work\Domain\Comments\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Notifications\Models\Notification;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Notifications\Models\Notification;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
 
 /**
  * @api

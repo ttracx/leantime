@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Core\Configuration;
+namespace Safe4Work\Core\Configuration;
 
 use ArrayAccess;
 use Exception;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Config\Repository as ConfigContract;
 use Illuminate\Support\Str;
-use Leantime\Config\Config;
+use Safe4Work\Config\Config;
 use Symfony\Component\Yaml\Yaml;
 
 /**

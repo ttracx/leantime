@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Clients\Repositories\Clients;
-use Leantime\Domain\Clients\Services\Clients as ClientService;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Timesheets\Services\Timesheets as TimesheetService;
-use Leantime\Domain\Users\Services\Users as UserService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Clients\Repositories\Clients;
+use Safe4Work\Domain\Clients\Services\Clients as ClientService;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Timesheets\Services\Timesheets as TimesheetService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowAllMilestonesOverview extends Controller

@@ -4,14 +4,14 @@
  * menu class - Menu definitions
  */
 
-namespace Leantime\Domain\Menu\Repositories;
+namespace Safe4Work\Domain\Menu\Repositories;
 
-use Leantime\Core\Configuration\Environment as EnvironmentCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Configuration\Environment as EnvironmentCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class Menu
 {

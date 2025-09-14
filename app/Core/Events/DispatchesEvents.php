@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Events;
+namespace Safe4Work\Core\Events;
 
 use Exception;
 

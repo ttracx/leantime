@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Controllers;
+namespace Safe4Work\Domain\Widgets\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Widgets\Services\Widgets;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Widgets\Services\Widgets;
 use Symfony\Component\HttpFoundation;
 
 /**

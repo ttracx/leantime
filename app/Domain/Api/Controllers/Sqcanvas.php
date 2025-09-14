@@ -4,7 +4,7 @@
  * - sqcanvas class - Controller API
  */
 
-namespace Leantime\Domain\Api\Controllers;
+namespace Safe4Work\Domain\Api\Controllers;
 
 class Sqcanvas extends Canvas
 {

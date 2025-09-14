@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\ServiceProvider;

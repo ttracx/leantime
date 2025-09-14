@@ -1,37 +1,52 @@
 {
-    "name": "leantime/leantime",
-    "description": "Open source project management system for non-project managers. Simple like Trello, powerful like Jira. Built with neurodiversity in mind.",
+    "name": "safe4work/safe4work",
+    "description": "Empowering Through AI Innovation. Safe4All and Safe4Work represents the culmination of decades of experience in technology leadership, product development, and AI innovation, united by a shared vision to transform care management for neurodiverse individuals.",
     "type": "project",
     "keywords": [
         "project-management", "task-management", "kanban", "gantt", "php", "mysql",
         "jira-alternative", "clickup-alternative", "asana-alternative", "agile",
         "scrum", "lean", "innovation-management", "neurodiversity-friendly"
     ],
-    "homepage": "http://leantime.io",
+    "homepage": "https://safe4work.com",
     "readme": "README.md",
     "license": "AGPL-3.0-only",
     "authors": [
         {
-            "name": "Marcel Folaron",
-            "email": "marcel@leantime.io",
-            "homepage": "http://leantime.io"
+            "name": "Jim Ross",
+            "email": "jim@safe4work.com",
+            "homepage": "https://safe4work.com"
+        },
+        {
+            "name": "Craig Ross",
+            "email": "craig@safe4work.com",
+            "homepage": "https://safe4work.com"
+        },
+        {
+            "name": "Dick Layton",
+            "email": "dick@safe4work.com",
+            "homepage": "https://safe4work.com"
+        },
+        {
+            "name": "Tommy Xaypanya",
+            "email": "tommy@safe4work.com",
+            "homepage": "https://safe4work.com"
         }
     ],
     "support": {
-        "email": "support@leantime.io",
-        "issues": "https://github.com/Leantime/leantime/issues",
-        "docs": "https://docs.leantime.io",
-        "chat": "https://discord.com/invite/YJeNS7VkQh",
-        "security": "https://leantime.io/responsible-disclosure-policy/"
+        "email": "support@safe4work.com",
+        "issues": "https://github.com/Safe4Work/safe4work/issues",
+        "docs": "https://docs.safe4work.com",
+        "chat": "https://discord.com/invite/safe4work",
+        "security": "https://safe4work.com/responsible-disclosure-policy/"
     },
     "funding": [
         {
             "type": "Github Sponsor",
-            "url": "https://github.com/sponsors/Leantime"
+            "url": "https://github.com/sponsors/Safe4Work"
         },
         {
-            "type": "Support Leantime",
-            "url": "https://marketplace.leantime.io/product/support-leantime"
+            "type": "Support Safe4Work",
+            "url": "https://safe4work.com/support"
         }
     ],
     "require": {
@@ -121,7 +136,7 @@
         "zebra-north/phpcs-short-types": "^1.0",
         "laravel/pint": "^1.17",
         "phpstan/phpstan": "^1.10",
-        "leantime/leantime-documentor": "dev-main",
+        "safe4work/safe4work-documentor": "dev-main",
         "mockery/mockery": "^1.6"
     },
     "provide": {
@@ -130,7 +145,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Leantime\\": [
+            "Safe4Work\\": [
                 "app/"
             ]
         },
@@ -140,13 +155,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Leantime\\": [
+            "Safe4Work\\": [
                 "app/"
             ],
             "Unit\\": [
                 "tests/Unit/"
             ],
-            "Leanstan\\": [
+            "Safe4Stan\\": [
                 ".phpstan/"
             ]
         },
@@ -157,15 +172,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/leantime/leantime-documentor.git"
+            "url": "https://github.com/safe4work/safe4work-documentor.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/leantime/php-mcp-server.git"
+            "url": "https://github.com/safe4work/php-mcp-server.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/Leantime/reactphp-http.git"
+            "url": "https://github.com/Safe4Work/reactphp-http.git"
         }
     ],
     "config": {
@@ -184,12 +199,12 @@
     "extra": {
         "installer-paths": {
             "app/Plugins/{$name}/": [
-                "type:leantime-plugin"
+                "type:safe4work-plugin"
             ]
         },
         "carbon": {
             "macros": [
-                "Leantime\\Core\\Support\\CarbonMacros"
+                "Safe4Work\\Core\\Support\\CarbonMacros"
             ]
         },
         "merge-plugin": {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Core\Controller;
+namespace Safe4Work\Core\Controller;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Http\HtmxRequest;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Http\HtmxRequest;
+use Safe4Work\Core\Http\IncomingRequest;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;

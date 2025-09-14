@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Files\Repositories;
+namespace Safe4Work\Domain\Files\Repositories;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Files\Contracts\FileManagerInterface;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Files\Contracts\FileManagerInterface;
 use PDO;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 

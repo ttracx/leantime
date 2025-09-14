@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Dashboard\Controllers;
+namespace Safe4Work\Domain\Dashboard\Controllers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Setting\Services\Setting;
-use Leantime\Domain\Widgets\Services\Widgets;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Setting\Services\Setting;
+use Safe4Work\Domain\Widgets\Services\Widgets;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 

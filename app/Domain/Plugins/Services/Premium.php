@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Plugins\Services;
+namespace Safe4Work\Domain\Plugins\Services;
 
 class Premium
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Core\Application;
+namespace Safe4Work\Core\Application;
 
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\ServiceProvider;
-use Leantime\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\AppSettings;
 
 class AppServiceProvider extends ServiceProvider
 {

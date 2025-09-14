@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\TwoFA\Controllers;
+namespace Safe4Work\Domain\TwoFA\Controllers;
 
 use Endroid\QrCode\Color\Color;
 use Endroid\QrCode\Label\Label;
 use Endroid\QrCode\QrCode;
 use Endroid\QrCode\Writer\PngWriter;
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 use RobThree\Auth\Providers\Qr\IQRCodeProvider;
 use RobThree\Auth\TwoFactorAuth;
 use RobThree\Auth\TwoFactorAuthException;

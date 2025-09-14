@@ -4,7 +4,7 @@
  * XML export
  */
 
-namespace Leantime\Domain\Retroscanvas\Controllers;
+namespace Safe4Work\Domain\Retroscanvas\Controllers;
 
 class Export extends \Leantime\Domain\Canvas\Controllers\Export
 {

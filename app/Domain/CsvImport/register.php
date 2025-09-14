@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Core\Events\EventDispatcher;
+use Safe4Work\Core\Events\EventDispatcher;
 
 // Register event listener
 EventDispatcher::add_filter_listener(

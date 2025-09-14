@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Domain\Connector\Models;
+namespace Safe4Work\Domain\Connector\Models;
 
 class Entity
 {

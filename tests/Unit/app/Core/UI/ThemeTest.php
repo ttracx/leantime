@@ -2,12 +2,12 @@
 
 namespace Unit\app\Core\UI;
 
-use Leantime\Core\Configuration\AppSettings;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Files\FileManager;
-use Leantime\Core\Language;
-use Leantime\Core\UI\Theme;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Core\Configuration\AppSettings;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Files\FileManager;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\UI\Theme;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class ThemeTest extends \Unit\TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Views\Composers;
+namespace Safe4Work\Views\Composers;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\UI\Composer;
-use Leantime\Domain\Menu\Repositories\Menu;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\UI\Composer;
+use Safe4Work\Domain\Menu\Repositories\Menu;
 
 class App extends Composer
 {

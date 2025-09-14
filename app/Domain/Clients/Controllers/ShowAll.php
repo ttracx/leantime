@@ -4,12 +4,12 @@
  * showAll Class - Show all clients
  */
 
-namespace Leantime\Domain\Clients\Controllers;
+namespace Safe4Work\Domain\Clients\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
 
 class ShowAll extends Controller
 {

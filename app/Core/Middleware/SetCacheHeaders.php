@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core\Middleware;
+namespace Safe4Work\Core\Middleware;
 
 use Closure;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

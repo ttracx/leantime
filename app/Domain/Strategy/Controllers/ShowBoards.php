@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Strategy\Controllers;
+namespace Safe4Work\Domain\Strategy\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Canvas\Services\Canvas as CanvaService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Canvas\Services\Canvas as CanvaService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowBoards extends Controller

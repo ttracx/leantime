@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Http;
+namespace Safe4Work\Core\Http;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Http\RequestTypes\RequestTypeDetector;
+use Safe4Work\Core\Http\RequestTypes\RequestTypeDetector;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

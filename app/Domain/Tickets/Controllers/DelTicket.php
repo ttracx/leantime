@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 use Symfony\Component\HttpFoundation\Response;
 
 class DelTicket extends Controller

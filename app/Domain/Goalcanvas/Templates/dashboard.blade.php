@@ -3,8 +3,8 @@
 
 @php
 
-use Leantime\Domain\Comments\Repositories\Comments;
-use Leantime\Domain\Goalcanvas\Services\Goalcanvas;
+use Safe4Work\Domain\Comments\Repositories\Comments;
+use Safe4Work\Domain\Goalcanvas\Services\Goalcanvas;
 
 
 $elementName = 'goal';

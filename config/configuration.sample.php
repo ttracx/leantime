@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Config;
+namespace Safe4Work\Config;
 
 /***
  *
@@ -15,7 +15,7 @@ class Config
 {
     /* General */
 
-    public $sitename = 'Leantime';                        // Name of your site, can be changed later
+    public $sitename = 'Safe4Work';                        // Name of your site, can be changed later
 
     public $language = 'en-US';                           // Default language
 

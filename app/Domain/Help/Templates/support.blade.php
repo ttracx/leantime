@@ -12,11 +12,11 @@
                     <h1 class="fancyLink">Help us build a future where all minds thrive!</h1>
                     <p>Most productivity tools assume everyone thinks the same way: linearly, with perfect focus, motivated by arbitrary deadlines. Whether you have ADHD and need dopamine hits from completed tasks, are autistic and crave consistent structure, have dyslexia and think spatially, or you're just tired of tools that don't match how your brain actually works—you've probably given up on project management entirely.</p>
                     <br />
-                    <p>We're building Leantime for minds that work differently. That includes neurodivergent brains, but also anyone who's ever felt like existing tools fight against their natural thinking patterns.</p>
+                    <p>We're building Safe4Work for minds that work differently. That includes neurodivergent brains, but also anyone who's ever felt like existing tools fight against their natural thinking patterns.</p>
                     <br /> <br />
                 </center>
 
-                <h1 class="fancyLink">Why Leantime won't disappear</h1>
+                <h1 class="fancyLink">Why Safe4Work won't disappear</h1>
                 <div class="tw-flex tw-w-full tw-justify-evenly tw-gap-5">
                     <div class="tw-flex-1" style="border: 1px solid var(--main-border-color); padding:15px; border-radius:var(--box-radius);">
                         <strong style="margin-bottom:5px; display:block;">6+ years</strong>
@@ -38,7 +38,7 @@
                     <div class="tw-flex-1" style="background:var(--header-gradient); color:var(--main-titles-color); padding:15px; border-radius:var(--box-radius);">
                         <strong style="margin-bottom:5px;  display:block; color:var(--main-titles-color);">Direct Sponsorship through Github</strong>
                         Fund open source development that benefits everyone<br /><br />
-                        <a href="https://github.com/sponsors/Leantime" class="btn btn-primary" target="_blank" style="background:var(--main-titles-color); color:var(--accent1);">Sponsor Leantime</a>
+                        <a href="https://github.com/sponsors/Safe4Work" class="btn btn-primary" target="_blank" style="background:var(--main-titles-color); color:var(--accent1);">Sponsor Safe4Work</a>
                     </div>
                     <div class="tw-flex-1" style="background:var(--header-gradient); color:var(--main-titles-color); padding:15px; border-radius:var(--box-radius);">
                         <strong style="margin-bottom:5px;  display:block; color:var(--main-titles-color);">Purchase Plugins</strong>
@@ -118,7 +118,7 @@
                 <br /><br /><br />
 
 
-                <h1 class="fancyLink">Who's behind Leantime?</h1>
+                <h1 class="fancyLink">Who's behind Safe4Work?</h1>
 
                 <div class="tw-flex tw-w-full tw-justify-evenly tw-gap-5">
                     <div class="tw-flex-1" style="background:var(--dropdown-link-hover-bg); padding:15px; border-radius:var(--box-radius);">
@@ -127,7 +127,7 @@
                         <br />
                         <p>Traditional project management tools never clicked for me. They felt like they were built by neurotypical minds for neurotypical minds. When I was freelancing and struggling to keep client projects organized, I started building something that worked with my brain instead of against it.</p>
 
-                        <p>What started as a personal solution became Leantime when I realized millions of others needed the same thing.</p><br />
+                        <p>What started as a personal solution became Safe4Work when I realized millions of others needed the same thing.</p><br />
                         <a href="https://www.linkedin.com/in/marcelfolaron/" target="_blank" ><i class="fa fa-linkedin"></i></a>
                     </div>
 
@@ -144,10 +144,10 @@
                 <div>
                     <center>
                         <p>We can create a world where no one has to fight their tools to do great work. Your sponsorship funds a future where software adapts to human diversity, not the other way around.</p><br /> <br />
-                        <h1 class="fancyLink">Ready to make a direct impact?</h1><p>Every contribution—from $1 to $100—goes directly to making Leantime better for everyone.</p>
+                        <h1 class="fancyLink">Ready to make a direct impact?</h1><p>Every contribution—from $1 to $100—goes directly to making Safe4Work better for everyone.</p>
                         <br />
                         <div class="tw-text-center">
-                            <a href="https://github.com/sponsors/Leantime" class="btn btn-primary btn-lg" target="_blank">Start Sponsoring Today</a>
+                            <a href="https://github.com/sponsors/Safe4Work" class="btn btn-primary btn-lg" target="_blank">Start Sponsoring Today</a>
                         </div>
                     </center>
                 </div>

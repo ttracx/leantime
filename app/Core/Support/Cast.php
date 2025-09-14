@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Support;
+namespace Safe4Work\Core\Support;
 
 use Illuminate\Support\Str;
 

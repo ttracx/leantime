@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Projects\Controllers;
+namespace Safe4Work\Domain\Projects\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Menu\Services\Menu;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Reports\Services\Reports as ReportService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Menu\Services\Menu;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Reports\Services\Reports as ReportService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class ShowMy extends Controller
 {

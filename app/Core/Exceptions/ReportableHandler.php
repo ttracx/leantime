@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Exceptions;
+namespace Safe4Work\Core\Exceptions;
 
 use Illuminate\Support\Traits\ReflectsClosures;
 use Throwable;

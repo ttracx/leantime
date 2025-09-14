@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Ldap\Services;
+namespace Safe4Work\Domain\Ldap\Services;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
 use LDAP\Connection;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 class Ldap
 {

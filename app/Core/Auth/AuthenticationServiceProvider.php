@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Auth;
+namespace Safe4Work\Core\Auth;
 
 use Illuminate\Auth\Access\Gate;
 use Illuminate\Auth\Middleware\RequirePassword;
@@ -9,11 +9,11 @@ use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Support\ServiceProvider;
-use Leantime\Domain\Auth\Guards\ApiGuard;
-use Leantime\Domain\Auth\Guards\WebGuard;
-use Leantime\Domain\Auth\Services\Auth as AuthService;
-use Leantime\Domain\Auth\Services\AuthUser;
-use Leantime\Domain\Oidc\Services\Oidc as OidcService;
+use Safe4Work\Domain\Auth\Guards\ApiGuard;
+use Safe4Work\Domain\Auth\Guards\WebGuard;
+use Safe4Work\Domain\Auth\Services\Auth as AuthService;
+use Safe4Work\Domain\Auth\Services\AuthUser;
+use Safe4Work\Domain\Oidc\Services\Oidc as OidcService;
 
 class AuthenticationServiceProvider extends ServiceProvider
 {

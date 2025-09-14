@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Timesheets\Controllers;
+namespace Safe4Work\Domain\Timesheets\Controllers;
 
 use Illuminate\Http\RedirectResponse;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class DelTime extends Controller

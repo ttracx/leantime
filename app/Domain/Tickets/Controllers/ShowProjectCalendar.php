@@ -4,14 +4,14 @@
  * showAll Class - show My Calender
  */
 
-namespace Leantime\Domain\Tickets\Controllers;
+namespace Safe4Work\Domain\Tickets\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Calendar\Repositories\Calendar as CalendarRepository;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Sprints\Services\Sprints as SprintService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Calendar\Repositories\Calendar as CalendarRepository;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Sprints\Services\Sprints as SprintService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
 
 class ShowProjectCalendar extends Controller
 {

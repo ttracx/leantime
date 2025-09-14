@@ -4,13 +4,13 @@
  * delCanvas class - Generic canvas controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Canvas\Controllers;
+namespace Safe4Work\Domain\Canvas\Controllers;
 
 use Illuminate\Support\Str;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
 
 class DelCanvas extends Controller
 {

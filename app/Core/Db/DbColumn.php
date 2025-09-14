@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Db;
+namespace Safe4Work\Core\Db;
 
 use Attribute;
 

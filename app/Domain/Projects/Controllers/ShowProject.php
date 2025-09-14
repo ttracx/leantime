@@ -1,25 +1,25 @@
 <?php
 
-namespace Leantime\Domain\Projects\Controllers;
+namespace Safe4Work\Domain\Projects\Controllers;
 
 use Illuminate\Http\Exceptions\HttpResponseException;
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Core\Controller\Frontcontroller as FrontcontrollerCore;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Comments\Repositories\Comments as CommentRepository;
-use Leantime\Domain\Comments\Services\Comments as CommentService;
-use Leantime\Domain\Files\Repositories\Files as FileRepository;
-use Leantime\Domain\Files\Services\Files as FileService;
-use Leantime\Domain\Menu\Repositories\Menu as MenuRepository;
-use Leantime\Domain\Notifications\Models\Notification;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Setting\Repositories\Setting as SettingRepository;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Users\Repositories\Users as UserRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Core\Controller\Frontcontroller as FrontcontrollerCore;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Comments\Repositories\Comments as CommentRepository;
+use Safe4Work\Domain\Comments\Services\Comments as CommentService;
+use Safe4Work\Domain\Files\Repositories\Files as FileRepository;
+use Safe4Work\Domain\Files\Services\Files as FileService;
+use Safe4Work\Domain\Menu\Repositories\Menu as MenuRepository;
+use Safe4Work\Domain\Notifications\Models\Notification;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Setting\Repositories\Setting as SettingRepository;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Users\Repositories\Users as UserRepository;
 
 class ShowProject extends Controller
 {

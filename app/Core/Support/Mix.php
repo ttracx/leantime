@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Core\Support;
+namespace Safe4Work\Core\Support;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 class Mix
 {

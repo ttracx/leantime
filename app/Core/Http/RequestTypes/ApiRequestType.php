@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Core\Http\RequestTypes;
+namespace Safe4Work\Core\Http\RequestTypes;
 
-use Leantime\Core\Http\ApiRequest;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Http\ApiRequest;
+use Safe4Work\Core\Http\IncomingRequest;
 
 class ApiRequestType implements RequestTypeInterface
 {

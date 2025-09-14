@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Clients\Services;
+namespace Safe4Work\Domain\Clients\Services;
 
-use Leantime\Core\UI\Template as TemplateCore;
-use Leantime\Domain\Clients\Repositories\Clients as ClientRepository;
-use Leantime\Domain\Projects\Repositories\Projects as ProjectRepository;
+use Safe4Work\Core\UI\Template as TemplateCore;
+use Safe4Work\Domain\Clients\Repositories\Clients as ClientRepository;
+use Safe4Work\Domain\Projects\Repositories\Projects as ProjectRepository;
 
 /**
  * Class Clients

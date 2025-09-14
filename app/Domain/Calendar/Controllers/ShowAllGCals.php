@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Domain\Calendar\Controllers;
+namespace Safe4Work\Domain\Calendar\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Calendar\Repositories\Calendar as CalendarRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Calendar\Repositories\Calendar as CalendarRepository;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShowAllGCals extends Controller

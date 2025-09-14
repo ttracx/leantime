@@ -1,8 +1,8 @@
 <?php
 
-namespace Leantime\Domain\CsvImport\Listeners;
+namespace Safe4Work\Domain\CsvImport\Listeners;
 
-use Leantime\Domain\CsvImport\Services;
+use Safe4Work\Domain\CsvImport\Services;
 
 /**
  * Class AddCSVImportProvider

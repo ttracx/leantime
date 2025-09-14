@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Eacanvas\Repositories;
+namespace Safe4Work\Domain\Eacanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 
 class Eacanvas extends Canvas
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Core\Support;
+namespace Safe4Work\Core\Support;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Leantime\Core\Support\String\AlphaNumeric;
-use Leantime\Core\Support\String\BeautifyFilename;
-use Leantime\Core\Support\String\SanitizeFilename;
-use Leantime\Core\Support\String\SanitizeForLLM;
-use Leantime\Core\Support\String\ToMarkdown;
+use Safe4Work\Core\Support\String\AlphaNumeric;
+use Safe4Work\Core\Support\String\BeautifyFilename;
+use Safe4Work\Core\Support\String\SanitizeFilename;
+use Safe4Work\Core\Support\String\SanitizeForLLM;
+use Safe4Work\Core\Support\String\ToMarkdown;
 
 class LoadMacrosServiceProvider extends ServiceProvider
 {

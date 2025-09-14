@@ -1,6 +1,6 @@
 <?php
 
-namespace Leantime\Core\Routing;
+namespace Safe4Work\Core\Routing;
 
 use Illuminate\Support\ServiceProvider;
 

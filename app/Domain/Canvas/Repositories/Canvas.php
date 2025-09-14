@@ -4,11 +4,11 @@
  * canvas class - Generic / Tempalate of canvas repository class
  */
 
-namespace Leantime\Domain\Canvas\Repositories;
+namespace Safe4Work\Domain\Canvas\Repositories;
 
-use Leantime\Core\Db\Db as DbCore;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Tickets\Repositories\Tickets;
+use Safe4Work\Core\Db\Db as DbCore;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Tickets\Repositories\Tickets;
 use PDO;
 
 class Canvas

@@ -1,11 +1,11 @@
 <?php
 
-namespace Leantime\Core;
+namespace Safe4Work\Core;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 

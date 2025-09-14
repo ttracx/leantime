@@ -1,6 +1,6 @@
 <?php
 
-use Leantime\Domain\Menu\Repositories\Menu;
+use Safe4Work\Domain\Menu\Repositories\Menu;
 
 defined('RESTRICTED') or exit('Restricted access');
 

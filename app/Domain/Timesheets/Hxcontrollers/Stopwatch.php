@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Timesheets\Hxcontrollers;
+namespace Safe4Work\Domain\Timesheets\Hxcontrollers;
 
 use Error;
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Timesheets\Services\Timesheets;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Timesheets\Services\Timesheets;
 
 class Stopwatch extends HtmxController
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Leantime\Domain\Wiki\Controllers;
+namespace Safe4Work\Domain\Wiki\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Core\Controller\Frontcontroller;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Wiki\Repositories\Wiki as WikiRepository;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Core\Controller\Frontcontroller;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Wiki\Repositories\Wiki as WikiRepository;
 
 class DelArticle extends Controller
 {

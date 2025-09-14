@@ -1,13 +1,13 @@
 <?php
 
-namespace Leantime\Domain\Widgets\Hxcontrollers;
+namespace Safe4Work\Domain\Widgets\Hxcontrollers;
 
-use Leantime\Core\Controller\HtmxController;
-use Leantime\Domain\Projects\Services\Projects as ProjectService;
-use Leantime\Domain\Reports\Services\Reports as ReportService;
-use Leantime\Domain\Tickets\Services\Tickets as TicketService;
-use Leantime\Domain\Users\Services\Users as UserService;
-use Leantime\Domain\Widgets\Services\Widgets as WidgetService;
+use Safe4Work\Core\Controller\HtmxController;
+use Safe4Work\Domain\Projects\Services\Projects as ProjectService;
+use Safe4Work\Domain\Reports\Services\Reports as ReportService;
+use Safe4Work\Domain\Tickets\Services\Tickets as TicketService;
+use Safe4Work\Domain\Users\Services\Users as UserService;
+use Safe4Work\Domain\Widgets\Services\Widgets as WidgetService;
 
 class Welcome extends HtmxController
 {

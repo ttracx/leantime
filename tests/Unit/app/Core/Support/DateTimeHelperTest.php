@@ -5,10 +5,10 @@ namespace Tests\Unit\App\Core\Support;
 use Carbon\CarbonImmutable;
 use Carbon\Exceptions\InvalidDateException;
 use Carbon\Exceptions\InvalidFormatException;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Language;
-use Leantime\Core\Support\CarbonMacros;
-use Leantime\Core\Support\DateTimeHelper;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Language;
+use Safe4Work\Core\Support\CarbonMacros;
+use Safe4Work\Core\Support\DateTimeHelper;
 use Unit\TestCase;
 
 class DateTimeHelperTest extends TestCase

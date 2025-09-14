@@ -1,20 +1,20 @@
 <?php
 
-namespace Leantime\Domain\Calendar\Services;
+namespace Safe4Work\Domain\Calendar\Services;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Core\Exceptions\MissingParameterException;
-use Leantime\Core\Language as LanguageCore;
-use Leantime\Domain\Auth\Models\Roles;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Calendar\Repositories\Calendar as CalendarRepository;
-use Leantime\Domain\Setting\Repositories\Setting;
-use Leantime\Domain\Tickets\Services\Tickets;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Core\Exceptions\MissingParameterException;
+use Safe4Work\Core\Language as LanguageCore;
+use Safe4Work\Domain\Auth\Models\Roles;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Calendar\Repositories\Calendar as CalendarRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Tickets\Services\Tickets;
 use Ramsey\Uuid\Uuid;
 use Spatie\IcalendarGenerator\Components\Calendar as IcalCalendar;
 use Spatie\IcalendarGenerator\Components\Event as IcalEvent;

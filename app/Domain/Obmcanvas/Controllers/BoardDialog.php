@@ -4,7 +4,7 @@
  * Controller / Delete Canvas
  */
 
-namespace Leantime\Domain\Obmcanvas\Controllers;
+namespace Safe4Work\Domain\Obmcanvas\Controllers;
 
 class BoardDialog extends \Leantime\Domain\Canvas\Controllers\BoardDialog
 {

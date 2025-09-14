@@ -1,5 +1,5 @@
 <?php
 
-namespace Leantime\Core\Domains;
+namespace Safe4Work\Core\Domains;
 
 interface DomainModel {}

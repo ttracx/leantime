@@ -1,14 +1,14 @@
 <?php
 
-namespace Leantime\Domain\Timesheets\Services;
+namespace Safe4Work\Domain\Timesheets\Services;
 
 use Carbon\CarbonInterface;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Log;
-use Leantime\Core\Exceptions\MissingParameterException;
-use Leantime\Domain\Tickets\Models\Tickets;
-use Leantime\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
-use Leantime\Domain\Users\Repositories\Users;
+use Safe4Work\Core\Exceptions\MissingParameterException;
+use Safe4Work\Domain\Tickets\Models\Tickets;
+use Safe4Work\Domain\Timesheets\Repositories\Timesheets as TimesheetRepository;
+use Safe4Work\Domain\Users\Repositories\Users;
 
 class Timesheets
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Leantime\Domain\Users\Controllers;
+namespace Safe4Work\Domain\Users\Controllers;
 
-use Leantime\Core\Controller\Controller;
-use Leantime\Domain\Auth\Services\Auth;
-use Leantime\Domain\Users\Repositories\Users;
+use Safe4Work\Core\Controller\Controller;
+use Safe4Work\Domain\Auth\Services\Auth;
+use Safe4Work\Domain\Users\Repositories\Users;
 
 class PatchUserSettings extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Entityrelations\Services;
+namespace Safe4Work\Domain\Entityrelations\Services;
 
-use Leantime\Domain\Entityrelations\Repositories\Entityrelations as EntityrelationRepository;
-use Leantime\Domain\Setting\Repositories\Setting;
+use Safe4Work\Domain\Entityrelations\Repositories\Entityrelations as EntityrelationRepository;
+use Safe4Work\Domain\Setting\Repositories\Setting;
 
 class Entityrelations
 {

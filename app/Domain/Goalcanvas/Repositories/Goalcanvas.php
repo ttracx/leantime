@@ -4,9 +4,9 @@
  * Repository
  */
 
-namespace Leantime\Domain\Goalcanvas\Repositories;
+namespace Safe4Work\Domain\Goalcanvas\Repositories;
 
-use Leantime\Domain\Canvas\Repositories\Canvas;
+use Safe4Work\Domain\Canvas\Repositories\Canvas;
 use PDO;
 
 class Goalcanvas extends Canvas

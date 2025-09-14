@@ -1,9 +1,9 @@
 <?php
 
-namespace Leantime\Domain\Auth\Models;
+namespace Safe4Work\Domain\Auth\Models;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Leantime\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\DispatchesEvents;
 
 /**
  * @TODO: Role names should be converted into an enum.

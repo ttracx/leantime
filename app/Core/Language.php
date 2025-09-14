@@ -1,15 +1,15 @@
 <?php
 
-namespace Leantime\Core;
+namespace Safe4Work\Core;
 
 use Exception;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Leantime\Core\Configuration\Environment;
-use Leantime\Core\Events\DispatchesEvents;
-use Leantime\Core\Events\EventDispatcher;
-use Leantime\Core\Http\ApiRequest;
-use Leantime\Core\Http\IncomingRequest;
+use Safe4Work\Core\Configuration\Environment;
+use Safe4Work\Core\Events\DispatchesEvents;
+use Safe4Work\Core\Events\EventDispatcher;
+use Safe4Work\Core\Http\ApiRequest;
+use Safe4Work\Core\Http\IncomingRequest;
 use Symfony\Component\HttpFoundation\Cookie;
 use Symfony\Component\HttpFoundation\Response;
 
