@@ -1,4 +1,4 @@
-leantime.authController = (function () {
+safe4work.authController = (function () {
 
     //Variables
     var closeModal = false;
@@ -21,7 +21,7 @@ leantime.authController = (function () {
         var name = jQuery('#tokenName').val();
 
         jQuery.ajax({
-            url: leantime.appUrl + '/advancedAuth/personalTokens/create',
+            url: safe4work.appUrl + '/advancedAuth/personalTokens/create',
             type: 'POST',
             data: {
                 name: name
@@ -30,16 +30,16 @@ leantime.authController = (function () {
                 jQuery('#newTokenModal').modal('hide');
                 jQuery('#tokenName').val('');
 
-                leantime.notification.show('Token created successfully. Make sure to copy your token now, you won\'t be able to see it again!');
+                safe4work.notification.show('Token created successfully. Make sure to copy your token now, you won\'t be able to see it again!');
 
                 // Show token in a modal
-                leantime.snippets.copyToClipboard(response.token);
+                safe4work.snippets.copyToClipboard(response.token);
 
                 // Reload the tokens table
                 window.location.reload();
             },
             error: function(xhr) {
-                leantime.notification.show(xhr.responseJSON.error, 'error');
+                safe4work.notification.show(xhr.responseJSON.error, 'error');
             }
         });
     }
@@ -50,14 +50,14 @@ leantime.authController = (function () {
         }
 
         jQuery.ajax({
-            url: leantime.appUrl + '/advancedAuth/personalTokens/delete/' + id,
+            url: safe4work.appUrl + '/advancedAuth/personalTokens/delete/' + id,
             type: 'DELETE',
             success: function() {
-                leantime.notification.show('Token deleted successfully');
+                safe4work.notification.show('Token deleted successfully');
                 window.location.reload();
             },
             error: function() {
-                leantime.notification.show('Error deleting token', 'error');
+                safe4work.notification.show('Error deleting token', 'error');
             }
         });
     }

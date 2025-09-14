@@ -1,4 +1,4 @@
-leantime.dateHelper =  (function () {
+safe4work.dateHelper =  (function () {
 
     //php date format mapper
     let phpFormatSeed = {
@@ -145,7 +145,7 @@ leantime.dateHelper =  (function () {
 
     var getFormatFromSettings = function (formattingKey, targetFormat) {
 
-        let format = leantime.i18n.__("language."+formattingKey);
+        let format = safe4work.i18n.__("language."+formattingKey);
 
         return mapFormat(format, targetFormat);
 

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe4Work - AI-Powered Project Management for Neurodiverse Teams</title>
+    <meta name="description" content="Safe4Work is an AI-powered project management platform designed with neurodiverse individuals in mind. Empowering teams through inclusive technology and cutting-edge AI innovation.">
+    <meta name="keywords" content="project management, AI, neurodiverse, inclusive technology, Safe4Work, NeuroEquality">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://safe4work.github.io/safe4work/">
+    <meta property="og:title" content="Safe4Work - AI-Powered Project Management">
+    <meta property="og:description" content="Empowering neurodiverse teams through AI-powered project management and inclusive technology.">
+    <meta property="og:image" content="https://safe4work.github.io/safe4work/assets/neuroequality-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://safe4work.github.io/safe4work/">
+    <meta property="twitter:title" content="Safe4Work - AI-Powered Project Management">
+    <meta property="twitter:description" content="Empowering neurodiverse teams through AI-powered project management and inclusive technology.">
+    <meta property="twitter:image" content="https://safe4work.github.io/safe4work/assets/neuroequality-logo.png">
+
+    <link rel="icon" type="image/png" href="assets/neuroequality-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .feature-card p {
+            color: #6c757d;
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+
+        .about-text p {
+            font-size: 1.1rem;
+            color: #6c757d;
+            margin-bottom: 1.5rem;
+        }
+
+        .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .value-item h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Team Section */
+        .team {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-member h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-member .role {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .team-member p {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        /* Partners Section */
+        .partners {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .partners h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .partner-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .partner-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .partner-logo:hover {
+            opacity: 1;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .footer-section a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #667eea;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #34495e;
+            padding-top: 1rem;
+            text-align: center;
+            color: #bdc3c7;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .partner-logos {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* NeuroEquality Logo Styles */
+        .neuroequality-logo {
+            width: 200px;
+            height: 200px;
+            background: #2c3e50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            position: relative;
+            border: 3px solid #667eea;
+        }
+
+        .neuroequality-logo::before {
+            content: '';
+            width: 80%;
+            height: 80%;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .neuroequality-logo::after {
+            content: '🧠';
+            font-size: 4rem;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <div class="neuroequality-logo"></div>
+                <div class="logo-text">Safe4Work</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="fade-in-up">Safe4Work</h1>
+            <p class="subtitle fade-in-up">Empowering Neurodiverse Teams Through AI-Powered Project Management</p>
+            <div class="cta-buttons fade-in-up">
+                <a href="https://github.com/safe4work/safe4work" class="btn btn-primary">
+                    <i class="fab fa-github"></i>
+                    View on GitHub
+                </a>
+                <a href="https://safe4work.com" class="btn btn-secondary">
+                    <i class="fas fa-external-link-alt"></i>
+                    Visit Website
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features for Inclusive Teams</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-First Approach</h3>
+                    <p>Leveraging cutting-edge AI and quantum computing to create intelligent care management systems that adapt to individual needs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Human-Centered Design</h3>
+                    <p>Every feature is designed with empathy, accessibility, and the unique needs of neurodiverse individuals at the forefront.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Trust & Security</h3>
+                    <p>Building secure, HIPAA-compliant solutions that protect privacy while enabling meaningful connections and support.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Advanced Project Management</h3>
+                    <p>Comprehensive task management with kanban boards, Gantt charts, timelines, and AI-powered insights for better productivity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Goal & Metrics Tracking</h3>
+                    <p>Track progress with visual dashboards, milestone management, and comprehensive reporting tools designed for clarity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Collaborative Tools</h3>
+                    <p>Built-in communication tools, file sharing, and real-time collaboration features that work for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p>To revolutionize care management through cutting-edge AI technology, creating personalized, accessible, and empowering solutions that promote independence and improve quality of life for neurodiverse individuals and their families.</p>
+                    <p>Safe4All and Safe4Work represents the culmination of decades of experience in technology leadership, product development, and AI innovation, united by a shared vision to transform care management for neurodiverse individuals.</p>
+                    
+                    <div class="values">
+                        <div class="value-item">
+                            <h4>Inclusivity</h4>
+                            <p>Designing for everyone, with special attention to neurodiverse needs and accessibility.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Excellence</h4>
+                            <p>Striving for the highest quality in every aspect of our technology and service delivery.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Innovation</h4>
+                            <p>Continuously pushing the boundaries of what's possible with AI and quantum computing.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Empathy</h4>
+                            <p>Understanding and responding to the real challenges faced by our users and their families.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="neuroequality-logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2 class="section-title">Leadership Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>Jim Ross</h4>
+                    <div class="role">Co-founder, Board Chairman & CEO</div>
+                    <p>Market focused team building leader with 50 years of business success and trusted relationships. Jim has performed successfully as Chairman & CEO in private software companies and President & COO of a public software company.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Craig Ross</h4>
+                    <div class="role">Co-founder, Board Member, & Chief Product Officer</div>
+                    <p>Proven operations and experienced technology business entrepreneur with over 25 years of business development, general management and successful software product launch experiences.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Dick Layton</h4>
+                    <div class="role">Co-founder, Board Member, & Chief Technology Officer (In loving memory)</div>
+                    <p>Brought over 30 years of technology leadership experience in building scalable enterprise solutions and leading high-performance engineering teams.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Tommy Xaypanya</h4>
+                    <div class="role">CTO</div>
+                    <p>Accomplished AI leader with over 18 years of experience driving innovation in artificial intelligence, machine learning, and quantum computing integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2>Technology Partners</h2>
+            <div class="partner-logos">
+                <div class="partner-logo">NeuralQuantum.ai</div>
+                <div class="partner-logo">VibeCaaS</div>
+                <div class="partner-logo">Tunaas.ai</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Safe4Work</h3>
+                    <p>Empowering neurodiverse teams through AI-powered project management and inclusive technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="https://github.com/safe4work/safe4work">GitHub Repository</a></p>
+                    <p><a href="https://safe4work.com">Official Website</a></p>
+                    <p><a href="https://docs.safe4work.com">Documentation</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>NeuroEquality LLC</h3>
+                    <p><a href="https://neuroequality.com">neuroequality.com</a></p>
+                    <p>Empowering Neurodivergent Lives Through AI, Quantum Computing, and Inclusive Design.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Neuro Equality. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all feature cards and team members
+        document.querySelectorAll('.feature-card, .team-member, .value-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

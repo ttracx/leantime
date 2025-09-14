@@ -686,7 +686,7 @@
                     requestData['groupBy'] = groupBy;
                 }
                 
-                htmx.ajax('POST', leantime.appUrl+'/hx/widgets/myToDos/saveSorting', {
+                htmx.ajax('POST', safe4work.appUrl+'/hx/widgets/myToDos/saveSorting', {
                     target: '#htmx-indicator',
                     swap: 'none',
                     values: requestData

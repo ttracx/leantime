@@ -6,7 +6,7 @@
 </span>
 {{--    <div class="row">--}}
 {{--        <div class="col-md-6">--}}
-{{--            © {{ date("Y") }} by <a href="https://safe4work.com" target="_blank">Safe4Work</a>--}}
+            © 2025 Neuro Equality. All rights reserved.
 {{--        </div>--}}
 {{--        <div class="col-md-6 align-right">--}}
 {{--            <a href="https://safe4work.com" target="_blank">--}}

@@ -1,29 +1,29 @@
 //Lets get this party started.
-var leantime = leantime || {};
+var safe4work = safe4work || {};
 
 var themeColor = jQuery('meta[name=theme-color]').attr("content");
-leantime.companyColor = themeColor;
+safe4work.companyColor = themeColor;
 
 var colorScheme = jQuery('meta[name=color-scheme]').attr("content");
-leantime.colorScheme = colorScheme;
+safe4work.colorScheme = colorScheme;
 
 var theme = jQuery('meta[name=theme]').attr("content");
-leantime.theme = theme;
+safe4work.theme = theme;
 
 var appURL = jQuery('meta[name=identifier-URL]').attr("content");
-leantime.appUrl = appURL;
+safe4work.appUrl = appURL;
 
-var leantimeVersion = jQuery('meta[name=leantime-version]').attr("content");
-leantime.version = leantimeVersion;
+var safe4workVersion = jQuery('meta[name=safe4work-version]').attr("content");
+safe4work.version = safe4workVersion;
 
-leantime.replaceSVGColors = function () {
+safe4work.replaceSVGColors = function () {
 
     jQuery(document).ready(function () {
 
-        if (leantime.companyColor != "#1b75bb") {
+        if (safe4work.companyColor != "#1b75bb") {
             jQuery("svg").children().each(function () {
                 if (jQuery(this).attr("fill") == "#1b75bb") {
-                    jQuery(this).attr("fill", leantime.companyColor);
+                    jQuery(this).attr("fill", safe4work.companyColor);
                 }
             });
         }
@@ -46,7 +46,7 @@ jQuery.noConflict();
 
 jQuery(document).ready(function () {
 
-    leantime.replaceSVGColors();
+    safe4work.replaceSVGColors();
 
     jQuery(".confetti").click(function () {
         confetti.start();
@@ -69,7 +69,7 @@ htmx.onLoad(function(element){
 });
 
 window.addEventListener("HTMX.ShowNotification", function(evt) {
-    jQuery.get(leantime.appUrl+"/notifications/getLatestGrowl", function(data){
+    jQuery.get(safe4work.appUrl+"/notifications/getLatestGrowl", function(data){
         let notification = JSON.parse(data);
 
         if(notification.notification && notification.notification !== "undefined") {

@@ -205,4 +205,4 @@ In partnership with the James Edward Ross Memorial Foundation, advancing digital
 
 ---
 
-© 2025 Safe4Work - Neuro Equality LLC. All rights reserved.
+© 2025 Neuro Equality. All rights reserved.

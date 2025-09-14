@@ -1,4 +1,4 @@
-leantime.snippets = (function () {
+safe4work.snippets = (function () {
 
     var copyUrl = function (field) {
 
@@ -13,7 +13,7 @@ leantime.snippets = (function () {
         navigator.clipboard.writeText(copyText.value);
 
         // Alert the copied text
-        jQuery.growl({message: leantime.i18n.__("short_notifications.url_copied"), style: "success"});
+        jQuery.growl({message: safe4work.i18n.__("short_notifications.url_copied"), style: "success"});
 
     };
 
@@ -22,7 +22,7 @@ leantime.snippets = (function () {
         navigator.clipboard.writeText(content);
 
         // Alert the copied text
-        jQuery.growl({message: leantime.i18n.__("short_notifications.url_copied"), style: "success"});
+        jQuery.growl({message: safe4work.i18n.__("short_notifications.url_copied"), style: "success"});
 
     };
 
@@ -55,7 +55,7 @@ leantime.snippets = (function () {
 
         jQuery.ajax({
             type : 'PATCH',
-            url  : leantime.appUrl + '/api/submenu',
+            url  : safe4work.appUrl + '/api/submenu',
             data : {
                 submenu : submenuName,
                 state   : submenuState
